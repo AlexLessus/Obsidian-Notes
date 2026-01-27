@@ -1,5 +1,7 @@
 [
-  "terminal",
   "templater-obsidian",
-  "calendar"
+  "calendar",
+  "dataview",
+  "homepage",
+  "terminal"
 ]
