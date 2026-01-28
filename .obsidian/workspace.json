@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
-                "mode": "preview",
+                "file": "40-49 Resources/Tec/Admin Redes/Tema 1.1.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HomePage"
+              "title": "Tema 1.1"
             }
           }
         ],
@@ -224,21 +224,25 @@
   },
   "active": "15e6cf590326588e",
   "lastOpenFiles": [
+    "Pasted image 20260128000159.png",
+    "Pasted image 20260128000106.png",
+    "40-49 Resources/Portafolio.md",
+    "40-49 Resources/Tec/Admin Redes/Tema 1.1.md",
+    "40-49 Resources/Tec/Admin Redes",
+    "10-19 Journal/01-27-2026.md",
+    "10-19 Journal/01-17-2026.md",
+    "HomePage.md",
     "10-19 Journal/01-24-2026.md",
     "10-19 Journal/01-20-2026.md",
-    "10-19 Journal/01-27-2026.md",
     "10-19 Journal/01-26-2026.md",
     "30-39 Projects/WissEdu/Presupuesto dea.md",
     "40-49 Resources/Tec/Lenguajes",
     "40-49 Resources/Tec",
-    "HomePage.md",
     "30-39 Projects/WissEdu",
     "30-39 Projects/Coffee Journal/Roadmap.md",
     "30-39 Projects/Coffee Journal/View model.md",
     "Pasted image 20260119203209.png",
     "Pasted image 20260120231912.png",
-    "10-19 Journal/01-17-2026.md",
-    "40-49 Resources/Portafolio.md",
     "30-39 Projects/Coffee Journal/Room (Database).md",
     "30-39 Projects/Coffee Journal/Lambdas Kotlin.md",
     "10-19 Journal/01-16-2026.md",
@@ -255,7 +259,6 @@
     "00-09 System/Agents/Gemini",
     "00-09 System/Agents",
     "10-19 Journal/2026-01-15.md",
-    "10-19 Journal/01/15/2026.md",
-    "10-19 Journal/01/15"
+    "10-19 Journal/01/15/2026.md"
   ]
 }
