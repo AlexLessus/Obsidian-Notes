@@ -67,7 +67,7 @@
 
 # Data models
 * Coffee log model
-
+[[Room (Database)]]
 
 
 # MVP
@@ -164,7 +164,7 @@ _El corazón de la app. Aquí unes la calculadora con la base de datos._
     - Configura el `NavHost`.        
     - Define las rutas: `"home"`, `"add_log"`, `"history"`.        
     - Haz que el botón "Log Brew" de la calculadora navegue a `"add_log"`. _Reto:_ Pasa los valores calculados (gramos/agua) como argumentos de navegación.       
-11. **Log ViewModel:**    
+11. **Log ViewModel:**    [[View model]]
     - Crea un ViewModel que pueda llamar a `repository.insertLog()`.        
 12. **UI del Formulario:**    
     - Crea los campos de texto (`OutlinedTextField`).        
@@ -196,3 +196,7 @@ _Hacer que parezca una app de verdad._
     - Prueba casos bordes: ¿Qué pasa si dejo el nombre vacío? (Validación). ¿Qué pasa si giro la pantalla?        
 18. **Commit Final:**    
     - Asegúrate de haber hecho commits en Git durante todo el proceso (ej: `feat: add calculator logic`, `ui: create history screen`).
+
+
+[[Lambdas Kotlin]]
+[[Kotlin sintaxis]]

@@ -25,18 +25,26 @@
             "id": "15e6cf590326588e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "40-49 Resources/Tec/Admin Redes/Tema 1.1.md",
-                "mode": "source",
-                "source": false
+                "file": "90-99 Archive/Images/Pasted image 20260128001914.png"
               },
-              "icon": "lucide-file",
-              "title": "Tema 1.1"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260128001914"
+            }
+          },
+          {
+            "id": "1ef0549753bbc656",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,12 +230,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "15e6cf590326588e",
+  "active": "1ef0549753bbc656",
   "lastOpenFiles": [
-    "Pasted image 20260128000159.png",
-    "Pasted image 20260128000106.png",
+    "10-19 Journal/Personal-Journal.md",
+    "30-39 Projects/Coffee Journal/Roadmap.md",
+    "30-39 Projects/Coffee Journal/Kotlin sintaxis.md",
+    "30-39 Projects/Coffee Journal/View model.md",
+    "30-39 Projects/Coffee Journal/Room (Database).md",
+    "30-39 Projects/Coffee Journal/Lambdas Kotlin.md",
+    "40-49 Resources/Tec/Admin Redes/Tema 1.md",
+    "90-99 Archive/Images/Pasted image 20260128001914.png",
+    "90-99 Archive/Images/Pasted image 20260128001527.png",
+    "40-49 Resources/Tec/Admin Redes/1.5 Seguridad.md",
+    "90-99 Archive/Images/Pasted image 20260128001854.png",
+    "40-49 Resources/Tec/Admin Redes/1.4 Desempeño.md",
+    "90-99 Archive/Images/Pasted image 20260128001805.png",
+    "90-99 Archive/Images/Pasted image 20260128001751.png",
+    "40-49 Resources/Tec/Admin Redes/1.3 Contabilidad.md",
+    "40-49 Resources/Tec/Admin Redes/1.1 Configuración.md",
+    "40-49 Resources/Tec/Admin Redes/1.2 Fallas.md",
+    "90-99 Archive/Images/Pasted image 20260128001552.png",
+    "90-99 Archive/Images/Pasted image 20260128001542.png",
+    "90-99 Archive/Images/Pasted image 20260119203209.png",
+    "90-99 Archive/Images",
+    "90-99 Archive/Images/Pasted image 20260128001329.png",
+    "90-99 Archive/Images/Pasted image 20260128001323.png",
     "40-49 Resources/Portafolio.md",
-    "40-49 Resources/Tec/Admin Redes/Tema 1.1.md",
     "40-49 Resources/Tec/Admin Redes",
     "10-19 Journal/01-27-2026.md",
     "10-19 Journal/01-17-2026.md",
@@ -239,15 +267,8 @@
     "40-49 Resources/Tec/Lenguajes",
     "40-49 Resources/Tec",
     "30-39 Projects/WissEdu",
-    "30-39 Projects/Coffee Journal/Roadmap.md",
-    "30-39 Projects/Coffee Journal/View model.md",
-    "Pasted image 20260119203209.png",
-    "Pasted image 20260120231912.png",
-    "30-39 Projects/Coffee Journal/Room (Database).md",
-    "30-39 Projects/Coffee Journal/Lambdas Kotlin.md",
     "10-19 Journal/01-16-2026.md",
     "10-19 Journal/01-15-2026.md",
-    "30-39 Projects/Coffee Journal/Kotlin sintaxis.md",
     "30-39 Projects/Coffee Journal",
     "30-39 Projects/TigerTech",
     "GEMINI.md",
@@ -256,9 +277,6 @@
     "00-09 System/Agents/Gemini/Skills/obsidian-daily-journal",
     "00-09 System/Agents/Gemini/Skills/Untitled.md",
     "00-09 System/Agents/Gemini/Skills",
-    "00-09 System/Agents/Gemini",
-    "00-09 System/Agents",
-    "10-19 Journal/2026-01-15.md",
-    "10-19 Journal/01/15/2026.md"
+    "00-09 System/Agents/Gemini"
   ]
 }
