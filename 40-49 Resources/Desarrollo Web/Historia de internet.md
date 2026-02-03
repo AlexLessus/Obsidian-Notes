@@ -1,3 +1,4 @@
+Tags: [[Desarrollo Web]] [[Redes]] 
 ### 1. Los Inicios: La Guerra Fría (Años 60)
 
 El internet nació en un contexto de tensión entre Estados Unidos y la Unión Soviética.

@@ -4,7 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "974aa9ef395a8e57",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a3aa9a2489252ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-09 System/01 Templates/Templater Class notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Templater Class notes"
+            }
+          },
+          {
+            "id": "8269a0d6f4341b56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-09 System/01 Templates/Daily Note.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily Note"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "6c4b84c4fdc2e636",
         "type": "tabs",
         "children": [
           {
@@ -13,30 +48,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40-49 Resources/Tec/Visión artificial/Diagnostico.md",
+                "file": "40-49 Resources/Desarrollo Web/Diseño Web.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diagnostico"
-            }
-          },
-          {
-            "id": "9ca88e153d5e5e17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40-49 Resources/Tec/Visión artificial/Conceptos basicos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Conceptos basicos"
+              "title": "Diseño Web"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40-49 Resources/Tec/Visión artificial/Conceptos basicos.md",
+                "file": "40-49 Resources/Desarrollo Web/Diseño Web.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Conceptos basicos"
+              "title": "Outline of Diseño Web"
             }
           },
           {
@@ -222,39 +242,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b4f667e5539bb1c3",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "00-09 System/01 Templates/Main Note.md",
+    "40-49 Resources/Desarrollo Web/Diseño Web.md",
+    "40-49 Resources/Visión Artificial/Index VA.md",
+    "40-49 Resources/Networking/Comandos Vlan.md",
+    "00-09 System/01 Templates/Daily Note.md",
     "10-19 Journal/02-01-2026.md",
-    "40-49 Resources/Tec/Visión artificial/Conceptos basicos.md",
-    "10-19 Journal/01-29-2026.md",
-    "HomePage.md",
-    "40-49 Resources/Tec/Visión artificial/Diagnostico.md",
-    "40-49 Resources/Tec/Admin Redes/1.3 Contabilidad.md",
-    "40-49 Resources/Tec/Admin Redes/1.2 Fallas.md",
-    "40-49 Resources/Tec/Admin Redes/Tema 1.md",
-    "40-49 Resources/Tec/Admin Redes/1.1 Configuración.md",
-    "40-49 Resources/Tec/Aprendizaje automatico/IA.md",
-    "40-49 Resources/Tec/Aprendizaje automatico/Actividad 1/Respuesta de Gemini.md",
-    "40-49 Resources/Tec/Desarrollo Web/Historia de internet.md",
-    "40-49 Resources/Tec/Aprendizaje automatico/Actividad 1/Comparacion_IA.md",
-    "10-19 Journal/01-27-2026.md",
-    "40-49 Resources/Tec/Visión artificial",
-    "10-19 Journal/01-28-2026.md",
-    "40-49 Resources/Tec/Desarrollo Web",
-    "40-49 Resources/Tec/Aprendizaje automatico/Actividad 1/Respuesta de ChatGPT.md",
-    "40-49 Resources/Tec/Aprendizaje automatico/Actividad 1/Respuesta de Claude.md",
-    "40-49 Resources/Tec/Aprendizaje automatico/Actividad 1",
-    "40-49 Resources/Tec/Aprendizaje automatico",
-    "40-49 Resources/Tec/Admin Redes/1.5 Seguridad.md",
-    "40-49 Resources/Tec/Admin Redes/1.4 Desempeño.md",
-    "10-19 Journal/01-24-2026.md",
-    "90-99 Archive/Images/Pasted image 20260128001914.png",
-    "10-19 Journal/01-20-2026.md",
-    "10-19 Journal/01-26-2026.md",
-    "40-49 Resources/Portafolio.md",
+    "00-09 System/01 Templates/Index.md",
+    "00-09 System/01 Templates/Templater Book Note.md",
+    "00-09 System/01 Templates/Book Note.md",
+    "40-49 Resources/Desarrollo Web/HTML.md",
+    "40-49 Resources/class note a.md",
+    "40-49 Resources/Untitled 1.md",
+    "00-09 System/01 Templates/Class Note.md",
+    "00-09 System/01 Templates/Templater Class notes.md",
+    "20-29 Areas/Index.md",
     "GEMINI.md",
-    "10-19 Journal/Personal-Journal.md",
-    "30-39 Projects/Coffee Journal/Roadmap.md",
+    "00-09 System/Agents/Gemini/Skills/obsidian-daily-journal/SKILL.md",
+    "30-39 Projects/Portfolio/Portafolio.md",
+    "30-39 Projects/WissEdu/Presupuesto.md",
+    "40-49 Resources/IA/IA.md",
+    "30-39 Projects/My New Project/README.md",
+    "40-49 Resources/IA/Prompts/Prompts Utiles.md",
+    "40-49 Resources/Networking/1.1 Configuración.md",
+    "30-39 Projects/My New Project",
+    "20-29 Areas/21 Software Engineering/Git Commands.md",
+    "20-29 Areas/21 Software Engineering/Git.md",
+    "20-29 Areas/21 Software Engineering",
+    "40-49 Resources/Software Development/Git.md",
+    "40-49 Resources/Software Development",
+    "20-29 Areas/22 Personal Development",
+    "40-49 Resources/Networking/Admin Redes",
+    "30-39 Projects/Portfolio",
+    "40-49 Resources/IA/Prompts",
+    "40-49 Resources/IA",
+    "40-49 Resources/Networking",
+    "40-49 Resources/41 Programming Languages",
+    "90-99 Archive/Images/Pasted image 20260128001914.png",
     "90-99 Archive/Images/Pasted image 20260128001527.png",
     "90-99 Archive/Images/Pasted image 20260128001854.png",
     "90-99 Archive/Images/Pasted image 20260128001805.png",
@@ -262,13 +288,7 @@
     "90-99 Archive/Images/Pasted image 20260128001552.png",
     "90-99 Archive/Images/Pasted image 20260128001542.png",
     "90-99 Archive/Images/Pasted image 20260119203209.png",
-    "90-99 Archive/Images",
     "90-99 Archive/Images/Pasted image 20260128001329.png",
-    "90-99 Archive/Images/Pasted image 20260128001323.png",
-    "40-49 Resources/Tec/Admin Redes",
-    "40-49 Resources/Tec/Lenguajes",
-    "40-49 Resources/Tec",
-    "30-39 Projects/WissEdu",
-    "30-39 Projects/Coffee Journal"
+    "90-99 Archive/Images/Pasted image 20260128001323.png"
   ]
 }

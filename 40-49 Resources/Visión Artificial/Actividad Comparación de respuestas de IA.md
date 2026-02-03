@@ -1,3 +1,4 @@
+Tags: [[Aprendizaje Automático]] [[IA]] [[Actividad]]
 # Comparación de Respuestas de IAs (ChatGPT, Claude y Gemini)
 
 ## Resumen General

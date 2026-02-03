@@ -1,4 +1,4 @@
-
+Tags: [[Coffee Journal]] [[Kotlin]]
 1) start form your goal:
 	1) Why am i making this project ?
 	2) Who this project is for ?

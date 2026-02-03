@@ -1,3 +1,4 @@
+Tags: [[Aprendizaje Automático]] [[Vision Artificial]] [[Programación]]
 ## IA
 - ### Tareas Tipo Cognitivas
 	- Sistemas basados en conocimientos
@@ -46,10 +47,10 @@ Que es la IA verde y que tendríamos que hacer para lograrla
 IA como antecedente al [aprendizaje automático](https://apps.cdguzman.tecnm.mx/itcg/mod/url/view.php?id=102741 "Aprendizaje automático")
 
 
-## [[Respuesta de Gemini]]
-## [[Respuesta de Claude]]
+## [[Actividad Respuesta de Gemini]]
+## [[Actividad Respuesta de Claude]]
 
-## [[Respuesta de ChatGPT]]
+## [[Actividad Respuesta de ChatGPT]]
 
 ---
 

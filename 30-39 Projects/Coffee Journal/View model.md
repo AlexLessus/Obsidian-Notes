@@ -1,3 +1,4 @@
+Tags: [[Kotlin]] 
 ![[Pasted image 20260119203209.png]]
 ### 1. El Problema: La "Amnesia" de Android
 

@@ -1,3 +1,4 @@
+Tags: [[Kotlin]]
 ## Main Components
 1. @Entity
 	Represents a table within the database.

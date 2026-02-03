@@ -1,3 +1,5 @@
 {
-  "cssTheme": "Obsidianite"
+  "cssTheme": "Obsidianite",
+  "interfaceFontFamily": "Arial",
+  "textFontFamily": "Malgun Gothic"
 }

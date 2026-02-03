@@ -1,3 +1,6 @@
+Tags: [[Vision Artificial]]
+
+
 Resolver el siguiente problema:  
 Calcular la cantidad en KiloBytes y GigaBytes de almacenamiento de una imagen que tiene una profundidad de color de 24 bits, mide 6 pulgadas a lo ancho y 4.5 pulgadas a lo alto, y la resolución es de 96 pixeles por pulgada.
 

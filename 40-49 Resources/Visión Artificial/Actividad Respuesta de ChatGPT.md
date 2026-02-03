@@ -1,3 +1,4 @@
+Tags: [[Aprendizaje Automático]] [[IA]]
 ## **Definiciones básicas**
 
 ### **Inteligencia**

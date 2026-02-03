@@ -1,3 +1,4 @@
+Tags: [[Kotlin]] 
 - Las lambdas permiten definir variables o funciones que pueden interactuar con otras funciones.
 
 ---

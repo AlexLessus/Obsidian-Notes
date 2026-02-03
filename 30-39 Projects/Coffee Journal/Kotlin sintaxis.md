@@ -1,3 +1,5 @@
+Tags: [[Coffee Journal]] [[Kotlin]]
+
 | **Concepto**           | **Java ☕**                                     | **Kotlin 🟣**                     |
 | ---------------------- | ---------------------------------------------- | --------------------------------- |
 | **Variable Inmutable** | `final String x = "A";`                        | `val x = "A"`                     |

@@ -1,3 +1,4 @@
+Tags: [[Tec]]
 ### **Administración de redes.**
 
 La administración de redes es un servicio que emplea una variedad de herramientas, aplicaciones y dispositivos para ayudar a los administradores de la red, en la configuración, supervisión y mantenimiento de la red.

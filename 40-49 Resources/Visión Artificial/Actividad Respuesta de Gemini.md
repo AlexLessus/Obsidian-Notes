@@ -1,3 +1,4 @@
+Tags: [[Aprendizaje Automático]] [[IA]] 
 ### 1. Definiciones Fundamentales
 **Inteligencia**
 podemos definir la **inteligencia** en este contexto técnico como la conjunción de las siguientes capacidades:

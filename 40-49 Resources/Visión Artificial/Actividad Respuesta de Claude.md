@@ -1,3 +1,4 @@
+Tags: [[IA]] [[Aprendizaje Automático]]
 # Conceptos Fundamentales de Inteligencia Artificial y Aprendizaje Automático
 
 ## Definiciones Básicas
