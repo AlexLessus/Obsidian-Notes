@@ -1,22 +1,23 @@
 ---
 tipo: indice
-tema: Visión Artificial
+tema: 
 ---
-# 🗺️ MOC: Vision Artificial
+# 🗺️ MOC: Python
 
 ## 📌 Introducción
-Breve mapa mental del tema.
+https://github.com/vinta/awesome-python
 
 ## 📂 Subtemas / Categorías
 ### 1. Fundamentos
-- [[ ]]
-- [[ ]]
+- [[ Introducción Python]] 
+- [[ Sintaxis Python]]
+- [[Tipos de datos Python]]
 
 ### 2. Nivel Intermedio
 - [[ ]]
 
 ### 3. Proyectos Relacionados
-- [[Tec]]
+- [[ ]]
 
 ## 🛠️ Herramientas Relacionadas
 - [x] 
@@ -24,7 +25,7 @@ Breve mapa mental del tema.
 ---
 **Notas huérfanas o por clasificar:**
 ```dataview
-list from #vision_artificial where !contains(file.name, "Vision Artificial")
+list from #python where !contains(file.name, "Python")
 
 ```
 

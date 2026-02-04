@@ -1,8 +1,8 @@
 ---
 tipo: indice
-tema: Visión Artificial
+tema: 
 ---
-# 🗺️ MOC: Vision Artificial
+# 🗺️ MOC: Taller de Investigación
 
 ## 📌 Introducción
 Breve mapa mental del tema.
@@ -16,7 +16,7 @@ Breve mapa mental del tema.
 - [[ ]]
 
 ### 3. Proyectos Relacionados
-- [[Tec]]
+- [[Tec]] 
 
 ## 🛠️ Herramientas Relacionadas
 - [x] 
@@ -24,7 +24,7 @@ Breve mapa mental del tema.
 ---
 **Notas huérfanas o por clasificar:**
 ```dataview
-list from #vision_artificial where !contains(file.name, "Vision Artificial")
+list from #Taller_de_Investigación where !contains(file.name, "Taller de Investigación")
 
 ```
 

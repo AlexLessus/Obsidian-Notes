@@ -13,5 +13,5 @@ tipo: nota_clase
 - 
 
 ## 🔗 Conexiones y Tareas
-- [ ] Revisar conceptos de [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.creation_date(), "YYYY-MM-DD") %>]] (Clase anterior)
+- [x] Revisar conceptos de [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.creation_date(), "YYYY-MM-DD") %>]] (Clase anterior)
 - **Material adicional:** [[ ]]

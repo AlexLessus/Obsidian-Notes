@@ -7,7 +7,7 @@ creado: <% tp.file.creation_date() %>
 # 📖 <% tp.file.title %>
 
 ## 📑 Progreso de Lectura
-- [ ] **Capítulo actual:** <% tp.file.cursor(1) %>
+- [x] **Capítulo actual:** <% tp.file.cursor(1) %>
 
 ## 🔬 Notas Técnicas
 ### Concepto / Algoritmo

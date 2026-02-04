@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "00-09 System/01 Templates",
+  "templates_folder": "00-09 System/Templater",
   "templates_pairs": [
     [
       "",

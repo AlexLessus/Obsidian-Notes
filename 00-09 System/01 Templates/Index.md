@@ -19,7 +19,7 @@ Breve mapa mental del tema.
 - [[ ]]
 
 ## 🛠️ Herramientas Relacionadas
-- [ ] 
+- [x] 
 
 ---
 **Notas huérfanas o por clasificar:**

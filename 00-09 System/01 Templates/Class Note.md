@@ -23,7 +23,7 @@ tipo: clase
 
 ## ❓ Dudas para investigar
 
-- [ ] 
+- [x] 
 
 ## 🔗 Conexiones
 

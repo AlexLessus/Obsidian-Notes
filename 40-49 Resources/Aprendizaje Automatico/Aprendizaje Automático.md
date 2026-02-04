@@ -1,8 +1,8 @@
 ---
 tipo: indice
-tema: Visión Artificial
+tema: Aprendizaje Automatico
 ---
-# 🗺️ MOC: Vision Artificial
+# 🗺️ MOC: Aprendizaje Automático
 
 ## 📌 Introducción
 Breve mapa mental del tema.
@@ -24,7 +24,7 @@ Breve mapa mental del tema.
 ---
 **Notas huérfanas o por clasificar:**
 ```dataview
-list from #vision_artificial where !contains(file.name, "Vision Artificial")
+list from # Aprendizaje Automático where !contains(file.name, "Aprendizaje Automático")
 
 ```
 

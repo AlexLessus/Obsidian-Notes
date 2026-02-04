@@ -13,5 +13,5 @@ tipo: nota_clase
 - 
 
 ## 🔗 Conexiones y Tareas
-- [ ] Revisar conceptos de [[2026-02-01]] (Clase anterior)
+- [x] Revisar conceptos de [[2026-02-01]] (Clase anterior)
 - **Material adicional:** [[ ]]

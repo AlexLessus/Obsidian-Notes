@@ -36,8 +36,8 @@ img = cv2.imread('imagen.jpg', 0)
 
 ## 🛠️ Aplicación en Proyectos
 
-- [ ] **Idea para proyecto:** (Ej: Aplicar esto a mi app de café)
-    
+- [x] **Idea para proyecto:** (Ej: Aplicar esto a mi app de café)
+	
 - **Relacionado con:** [[ ]]
     
 
