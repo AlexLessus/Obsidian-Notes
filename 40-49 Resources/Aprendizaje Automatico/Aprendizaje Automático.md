@@ -5,15 +5,21 @@ tema: Aprendizaje Automatico
 # 🗺️ MOC: Aprendizaje Automático
 
 ## 📌 Introducción
-Breve mapa mental del tema.
+![[Pasted image 20260204104019.png]]
+
 
 ## 📂 Subtemas / Categorías
 ### 1. Fundamentos
-- [[ ]]
-- [[ ]]
+- [[Machine Learning]]
+- [[Inteligencia artificial distribuida]]
+- [[Aprendizaje Supervisado]]
+- [[Aprendizaje No Supervisado]]
+- [[Aprendizaje por reforzamiento]]
+- [[Deep learning]]
+- 
 
 ### 2. Nivel Intermedio
-- [[ ]]
+- [[  ]]
 
 ### 3. Proyectos Relacionados
 - [[Tec]]
@@ -22,9 +28,8 @@ Breve mapa mental del tema.
 - [x] 
 
 ---
-**Notas huérfanas o por clasificar:**
+### Notas en progreso
 ```dataview
-list from # Aprendizaje Automático where !contains(file.name, "Aprendizaje Automático")
+list from #Baby  where !contains(file.name, "Aprendizaje Automático")
 
 ```
-

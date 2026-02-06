@@ -9,8 +9,8 @@ fecha_inicio: {{date}}
 
 ## 📑 Índice de Navegación
 - **Capítulos revisados:**
-    - [ ] Capítulo 1
-    - [ ] Capítulo 2
+    - [x] Capítulo 1
+    - [x] Capítulo 2
 
 ## 🧠 Conceptos Maestros
 > [!abstract] Resumen Ejecutivo
