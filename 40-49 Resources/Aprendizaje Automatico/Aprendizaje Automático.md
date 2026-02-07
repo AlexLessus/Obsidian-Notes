@@ -7,6 +7,9 @@ tema: Aprendizaje Automatico
 ## 📌 Introducción
 ![[Pasted image 20260204104019.png]]
 
+#### Aprendizaje automático
+Técnica para diseñar sistemas inteligentes que tengan la capacidad de aprender
+
 
 ## 📂 Subtemas / Categorías
 ### 1. Fundamentos
@@ -16,7 +19,7 @@ tema: Aprendizaje Automatico
 - [[Aprendizaje No Supervisado]]
 - [[Aprendizaje por reforzamiento]]
 - [[Deep learning]]
-- 
+- [[redes neuronales]]
 
 ### 2. Nivel Intermedio
 - [[  ]]

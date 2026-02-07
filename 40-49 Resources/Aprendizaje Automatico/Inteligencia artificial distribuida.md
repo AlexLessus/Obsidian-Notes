@@ -5,7 +5,7 @@ Muchos servicios en internet son agentes
 
 
 
-Inteligencia artificial, un enfoque moderno - stuar J. Russell Peter Norvig
+%% Inteligencia artificial, un enfoque moderno - stuar J. Russell Peter Norvig %%
 ## Sistemas que piensan como humanos
 Tratan de emular el pensamiento humano
 [[Redes neuronales ]]

@@ -28,10 +28,11 @@ IA > Humano?
 
 ## Debil
 Sistemas que cumplen un conjunto limitado de actividades
+No tiene capacidad de aprender
 
 ## Fuerte
-IAs capaces de adaptarse a distintas actividades
-No tienen sentido comun, creatividad
+IAs capaces de aprender y adaptarse a distintas actividades
+No tienen sentido común, creatividad
 
 ## Super inteligencia
 Superará al humano
