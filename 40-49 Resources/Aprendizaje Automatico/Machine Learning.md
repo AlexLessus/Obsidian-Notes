@@ -22,11 +22,9 @@ Es la rama de la IA, estudia como dotar a las maquinas de pensamiento inteligent
 
 
 ## Machine learning != IA
-
 IA > Humano?
 
-
-## Debil
+## Débil
 Sistemas que cumplen un conjunto limitado de actividades
 No tiene capacidad de aprender
 
@@ -36,9 +34,6 @@ No tienen sentido común, creatividad
 
 ## Super inteligencia
 Superará al humano
-
-
-
 
 
 #### Tipos de inteligencias
@@ -63,6 +58,10 @@ Datos que se pueden procesar con deep learning
 
 
 ![[Pasted image 20260204100215.png]]
+
+
+
+
 
 ![[Pasted image 20260204100224.png]]
 ![[Pasted image 20260204100434.png]]

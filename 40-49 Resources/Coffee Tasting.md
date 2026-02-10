@@ -57,5 +57,5 @@ Bloom ratio = 1:3
 ![[Pasted image 20260205132840.png]]
 
 
-95 celcius punto de ebullicion en guzman
+95 Celsius punto de ebullición en Guzman
 

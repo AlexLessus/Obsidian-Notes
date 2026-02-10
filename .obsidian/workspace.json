@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40-49 Resources/Coffee Tasting.md",
+                "file": "10-19 Journal/02-09-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coffee Tasting"
+              "title": "02-09-2026"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40-49 Resources/Coffee Tasting.md",
+                "file": "10-19 Journal/02-09-2026.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Coffee Tasting"
+              "title": "Backlinks for 02-09-2026"
             }
           },
           {
@@ -129,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40-49 Resources/Coffee Tasting.md",
+                "file": "10-19 Journal/02-09-2026.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Coffee Tasting"
+              "title": "Outgoing links from 02-09-2026"
             }
           },
           {
@@ -172,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40-49 Resources/Coffee Tasting.md",
+                "file": "10-19 Journal/02-09-2026.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Coffee Tasting"
+              "title": "Outline of 02-09-2026"
             }
           },
           {
@@ -240,44 +240,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b4f667e5539bb1c3",
+  "active": "2e1645c18e4cecda",
   "lastOpenFiles": [
     "40-49 Resources/Modulo Matriz de café.md",
+    "10-19 Journal/02-09-2026.md",
+    "90-99 Archive/Images/Pasted image 20260204221210.png",
+    "40-49 Resources/Fases del ML.md",
+    "90-99 Archive/Images/Pasted image 20260209102602.png",
+    "40-49 Resources/Aplicaciones ML.md",
     "40-49 Resources/Fases de un sistema de reconocimiento de patrones.md",
+    "40-49 Resources/Linea del tiempo VA.md",
+    "40-49 Resources/Planificar un proyecto.md",
+    "40-49 Resources/redes neuronales.md",
+    "40-49 Resources/Introducción VA.md",
+    "40-49 Resources/Industria 4.0 y 5.0.md",
+    "40-49 Resources/Aprendizaje Automatico/Machine Learning.md",
     "40-49 Resources/Aprendizaje Automatico/Deep learning.md",
     "40-49 Resources/Aprendizaje Automatico/Aprendizaje Automático.md",
-    "40-49 Resources/redes neuronales.md",
     "40-49 Resources/Aprendizaje Supervisado.md",
+    "40-49 Resources/Networking/1.5 Seguridad.md",
+    "40-49 Resources/Networking/1.4 Desempeño.md",
+    "40-49 Resources/Taller de Investigación.md",
+    "40-49 Resources/Networking/1.3 Contabilidad.md",
+    "40-49 Resources/Visión Artificial/Introducción a la VA.md",
+    "40-49 Resources/Visión Artificial/Aplicaciones.md",
+    "40-49 Resources/Coffee Tasting.md",
     "40-49 Resources/Aprendizaje Automatico/Singularidad Tecnologica.md",
     "40-49 Resources/Aprendizaje Automatico/Programación distribuida.md",
-    "40-49 Resources/Aprendizaje Automatico/Machine Learning.md",
-    "Pasted image 20260206083036.png",
-    "Pasted image 20260206083033 1.png",
-    "Pasted image 20260206083033.png",
+    "90-99 Archive/Images/Pasted image 20260206083036.png",
+    "90-99 Archive/Images/Pasted image 20260206083033 1.png",
+    "90-99 Archive/Images/Pasted image 20260206083033.png",
     "40-49 Resources/Aprendizaje Automatico/Inteligencia artificial distribuida.md",
-    "40-49 Resources/Planificar un proyecto.md",
     "40-49 Resources/Servidor web.md",
     "HomePage.md",
-    "40-49 Resources/Industria 4.0 y 5.0.md",
-    "40-49 Resources/Visión Artificial/Conceptos basicos.md",
-    "40-49 Resources/Linea del tiempo VA.md",
-    "40-49 Resources/Visión Artificial/Aplicaciones.md",
-    "40-49 Resources/Untitled.md",
-    "40-49 Resources/Coffee Tasting.md",
-    "Pasted image 20260205132840.png",
-    "Pasted image 20260204230335.png",
-    "Pasted image 20260204225221.png",
-    "40-49 Resources/Taller de Investigación.md",
-    "40-49 Resources/IA/IA.md",
-    "40-49 Resources/Crear Blog.md",
-    "40-49 Resources/Cosas a mejorar.md",
-    "40-49 Resources/Agentes.md",
-    "40-49 Resources/Índice de Libros.md",
-    "Pasted image 20260204221210.png",
+    "90-99 Archive/Images/Pasted image 20260205132840.png",
+    "90-99 Archive/Images/Pasted image 20260204230335.png",
+    "90-99 Archive/Images/Pasted image 20260204225221.png",
     "90-99 Archive/Images/Pasted image 20260204104019.png",
-    "30-39 Projects/Coffee Journal/Roadmap.md",
     "90-99 Archive/Images/Pasted image 20260204100434.png",
-    "90-99 Archive/Images/Pasted image 20260204100224.png",
     "00-09 System/Templater",
     "30-39 Projects/My New Project",
     "20-29 Areas/21 Software Engineering",
