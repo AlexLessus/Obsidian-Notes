@@ -44,8 +44,6 @@ tercera con los últimos segundos de la extracción
 
 Así podrás distinguir si el café está amargo o acido
 
-c
-
 Lower ratio = Higher concentration and Lower extraction
 Higher ratio = Lower concentration and higher extraction
 Lower Temperature = Lower Extraction
@@ -55,7 +53,6 @@ Bloom ratio = 1:3
 
 
 ![[Pasted image 20260205132840.png]]
-
 
 95 Celsius punto de ebullición en Guzman
 

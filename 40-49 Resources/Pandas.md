@@ -1,4 +1,4 @@
-Tags: [[Aprendizaje Automático]]
+Tags: [[Aprendizaje Automático]] [[Python]] [[Vision Artificial]]
 
 **[Pandas](https://pandas.pydata.org/)** is one of the most powerful and popular Python libraries for working with data. If you've ever used Google Sheets or Excel to explore and analyze a table full of numbers, you're already halfway there – `pandas` just lets us do it faster, smarter, and with code.
 
@@ -128,3 +128,143 @@ This shows that the average budget of our movies is `7.3250000e+07`, or 73,250,
 
 However, adding `include='all'` inside allows us to view stats about non-numeric columns:
 ![[Pasted image 20260210091304.png]]
+
+
+## Accessing Specific Columns
+Sometimes, we don’t need the whole DataFrame; we just want to zoom in on one column (or a few). Let’s see how to do that!
+
+Again, recall our `movies` DataFrame:
+![[Pasted image 20260210230736.png]]
+If we wanted only the `genre` column, we could access it using `movies['genre']` or `movies.genre`.
+
+The bracket style (`df['column_name']`) is slightly more common, as it's more versatile. For example, `df.column name` is unusable since the column name has a space in it. It would have to be written as `df['column_name']`.
+
+### Series
+When we select a single column, we’re actually getting a Pandas Series (not a full DataFrame).
+
+If a DataFrame is like a table, a **Series** is like a single column of that table. It’s still powerful, just narrower.
+We can check the type using `type()`:
+``` python
+type(movies)            # Prints pandas.core.frame.DataFrame
+type(movies['genre'])   # Prints pandas.core.series.Series
+```
+
+### Accessing Multiple Columns
+We can access multiple columns by using a Python list of column names. For example, the following line of code would return the `genre` and `studio` columns:
+
+``` Python
+only_genre_and_studio_df = movies[['genre', 'studio']]
+```
+
+**Because this returns multiple columns, it will be a DataFrame rather than a Series.**
+
+### Accessing All But One Column with .drop()
+Sometimes we want everything except one column. That’s where `.drop()` comes in handy:
+
+``` Python
+removed_title_df = movies.drop("title", axis = 1)
+```
+
+The above line of code creates a new DataFrame named `removed_title_df` that contains all of the columns from `movies` except for the `title` column. `axis = 1` tells Pandas that we want to drop a column rather than a row.
+
+## Filtering Rows
+We’ve learned how to select specific columns, but what if we only want certain **rows**? Here's our `movies` DataFrame once again:
+![[Pasted image 20260210231858.png]]
+
+Here's how we could filter for movies longer than 120 minutes:
+
+``` Python
+long_movies = movies[movies['runtime_minutes'] > 120]
+```
+
+Boom! Now `long_movies` contains only the extra-long films.
+
+![[Pasted image 20260210231949.png]]
+
+This filtering syntax can be a bit confusing. Why do we need to include `movies` twice?
+
+Let's break it down by looking at the part of the code that is inside the outer set of bracket: The `movies['runtime_minutes'] > 120` line creates a Series of `True` and `False` values, one for each row:
+![[Pasted image 20260210232123.png]]
+
+This is showing that in our `movies` DataFrame, all movies except the 4th movie (_The Lion King_) are longer than 120 minutes.
+
+But this isn't filtered yet. We want to remove the `False` rows. To filter the DataFrame, we use that boolean Series inside square brackets. This keeps only the rows where the condition is `True`.
+
+Here's another way to do this filtering where we've broken the process into two steps:
+
+``` Python
+boolean_series = movies['runtime_minutes'] > 120
+long_movies = movies[boolean_series]
+```
+
+### AND and OR
+You can filter based on multiple conditions by using AND (`&`) and OR (`|`).
+
+For example, if you wanted to filter for movies that are longer than 120 minutes AND in the genre `'Sci-Fi'`, you could use the following line of code:
+
+``` Python
+long_movies = movies[
+  (movies['runtime_minutes'] > 120) &
+  (movies['genre'] == 'Sci-Fi')
+]
+```
+
+Make sure to wrap each individual Boolean series in parentheses.
+If you wanted to use an OR rather than an AND, simply change `&` to `|`.
+You can chain together as many of these expressions as you want!
+
+## More Data Manipulation
+### Sorting By Columns with .sort_values()
+Want to see which movie made the most money? We can sort a DataFrame by a specific column by using `.sort_values()`:
+
+``` Python
+box_office_sorted = movies.sort_values(by='box_office', ascending=False)
+```
+
+The new `box_office_sorted` DataFrame has the rows sorted by their `box_office` value from high to low.![[Pasted image 20260210233255.png]]
+
+If we wanted to sort from low to high, just use `ascending = True`.
+
+### Rename Columns with .rename()
+Let’s say we want to rename the `'budget'` column to `'budget_usd'`. We can do that by using `.rename()`:
+
+``` Python
+movies = movies.rename(columns={'budget': 'budget_usd'})
+```
+
+![[Pasted image 20260210233341.png]]
+*Notice that we used `movies =` . This is because `.rename()` doesn't automatically change the original DataFrame unless we assign the result back to `movies` (or use `inplace=True`).*
+
+If we wanted to rename multiple columns at once, we could have passed additional key:value pairs to the `columns` dictionary.
+
+### Adding Columns
+We can add new columns by assigning a list or a calculation to a column name. Here’s how to add a `'lead_actor'` column
+
+``` Python
+movies['lead_actor'] = ['Keanu Reeves', 'Leonardo DiCaprio', 'Song Kang-ho', 'Matthew Broderick', 'Michelle Yeoh']
+```
+
+![[Pasted image 20260210233616.png]]
+
+We can also add new columns based on existing data! For example:
+
+``` Python
+movies['budget (millions)'] = movies['budget'] / 1000000
+```
+
+![[Pasted image 20260210233747.png]]
+
+Now we've got budget figures in a friendlier format: millions!
+
+## Review
+- DataFrames store data in rows and columns. They can be created from dictionaries, lists, or imported directly from files.
+- Some preliminary data exploration:
+    - `.head()` shows the first few rows of the DataFrame.
+    - `.tail()` shows the last few rows of the DataFrame.
+    - `.info()` displays column names, data types, etc.
+    - `.describe()` summarizes stats for numeric columns.
+- Select specific columns from a DataFrame by using square brackets `[` `]`.
+- Filter rows of DataFrames by using boolean expressions using `>`, `<`, or == . Chain multiple boolean expressions together using AND (`&`) and OR (`|`).
+- We can sort, rename, and add new columns to a DataFrame.
+
+

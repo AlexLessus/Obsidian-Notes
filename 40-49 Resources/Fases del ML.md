@@ -9,13 +9,13 @@ Antes de tocar los datos, es fundamental comprender el problema empresarial o de
 ## - Preparación y limpieza de datos(Preprocesamiento)
 	- Eliminar datos incorrectos o duplicado
 	- rellenar valores faltantes
+		- Se quita el registro o se rellenan los datos faltantes dependiendo de la cantidad de información 
 	- ==Normalizar datos==
 	- Convertir texto o categorías en números
 	- Trabajar con los datos atípicos
 ## - Seleccionar el modelo
 ## - Entrenar el modelo
 ## - Evaluación del modelo
-	
 	- Métricas 
 		- Precisión
 		- Exactitud

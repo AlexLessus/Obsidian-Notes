@@ -1,5 +1,6 @@
 {
-  "cssTheme": "Obsidianite",
+  "cssTheme": "GitHub Theme",
   "interfaceFontFamily": "Arial",
-  "textFontFamily": "Malgun Gothic"
+  "textFontFamily": "Malgun Gothic",
+  "accentColor": "#976bff"
 }
