@@ -1,4 +1,4 @@
-
+Tags: [[Python]] 
 
 ``` Python
 # Definimos una variable x con una cadena 
@@ -64,3 +64,6 @@ acos(x, /)
 
 
 ```
+
+Tipos de datos
+- Basicos

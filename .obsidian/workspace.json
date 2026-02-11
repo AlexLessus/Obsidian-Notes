@@ -13,6 +13,34 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "40-49 Resources/Cosas a mejorar.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cosas a mejorar"
+            }
+          },
+          {
+            "id": "bf63a590bafc4251",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40-49 Resources/41 Programming Languages/Tipos de datos Python.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tipos de datos Python"
+            }
+          },
+          {
+            "id": "f4cb51fb8a9b3a86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "HomePage.md",
                 "mode": "preview",
                 "source": false
@@ -36,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-19 Journal/02-09-2026.md",
+                "file": "HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +148,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 02-09-2026"
+              "title": "Backlinks for HomePage"
             }
           },
           {
@@ -129,12 +157,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10-19 Journal/02-09-2026.md",
+                "file": "HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 02-09-2026"
+              "title": "Outgoing links from HomePage"
             }
           },
           {
@@ -172,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-19 Journal/02-09-2026.md",
+                "file": "HomePage.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 02-09-2026"
+              "title": "Outline of HomePage"
             }
           },
           {
@@ -240,10 +268,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2e1645c18e4cecda",
+  "active": "f4cb51fb8a9b3a86",
   "lastOpenFiles": [
-    "40-49 Resources/Modulo Matriz de café.md",
+    "40-49 Resources/41 Programming Languages/Tipos de datos Python.md",
+    "40-49 Resources/41 Programming Languages/Python.md",
+    "40-49 Resources/41 Programming Languages/Sintaxis Python.md",
+    "40-49 Resources/41 Programming Languages/Introducción Python.md",
+    "40-49 Resources/Pandas.md",
+    "Pasted image 20260210091304.png",
+    "Pasted image 20260210091229.png",
+    "40-49 Resources/Cosas a mejorar.md",
+    "40-49 Resources/Taller de Investigación.md",
+    "HomePage.md",
     "10-19 Journal/02-09-2026.md",
+    "40-49 Resources/Modulo Matriz de café.md",
     "90-99 Archive/Images/Pasted image 20260204221210.png",
     "40-49 Resources/Fases del ML.md",
     "90-99 Archive/Images/Pasted image 20260209102602.png",
@@ -260,24 +298,14 @@
     "40-49 Resources/Aprendizaje Supervisado.md",
     "40-49 Resources/Networking/1.5 Seguridad.md",
     "40-49 Resources/Networking/1.4 Desempeño.md",
-    "40-49 Resources/Taller de Investigación.md",
     "40-49 Resources/Networking/1.3 Contabilidad.md",
     "40-49 Resources/Visión Artificial/Introducción a la VA.md",
-    "40-49 Resources/Visión Artificial/Aplicaciones.md",
-    "40-49 Resources/Coffee Tasting.md",
-    "40-49 Resources/Aprendizaje Automatico/Singularidad Tecnologica.md",
-    "40-49 Resources/Aprendizaje Automatico/Programación distribuida.md",
     "90-99 Archive/Images/Pasted image 20260206083036.png",
     "90-99 Archive/Images/Pasted image 20260206083033 1.png",
     "90-99 Archive/Images/Pasted image 20260206083033.png",
-    "40-49 Resources/Aprendizaje Automatico/Inteligencia artificial distribuida.md",
-    "40-49 Resources/Servidor web.md",
-    "HomePage.md",
     "90-99 Archive/Images/Pasted image 20260205132840.png",
     "90-99 Archive/Images/Pasted image 20260204230335.png",
     "90-99 Archive/Images/Pasted image 20260204225221.png",
-    "90-99 Archive/Images/Pasted image 20260204104019.png",
-    "90-99 Archive/Images/Pasted image 20260204100434.png",
     "00-09 System/Templater",
     "30-39 Projects/My New Project",
     "20-29 Areas/21 Software Engineering",
