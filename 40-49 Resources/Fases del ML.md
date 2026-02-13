@@ -1,4 +1,10 @@
+Tags [[Machine Learning]] 
 ![[Pasted image 20260209102602.png]]
+
+![[Pasted image 20260211222459.png]]
+
+
+
 ## - Definición del problema
 Antes de tocar los datos, es fundamental comprender el problema empresarial o de investigación que se desea resolver
 

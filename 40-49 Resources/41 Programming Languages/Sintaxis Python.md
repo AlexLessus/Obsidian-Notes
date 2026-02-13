@@ -65,5 +65,88 @@ acos(x, /)
 
 ```
 
-Tipos de datos
-- Basicos
+#### Operadores relacionales
+``` Python
+== igual a 
+!= diferente a 
+< menor que
+> mayor que
+<= menor o igual que
+>= mayor o igual que 
+```
+
+#### Operador de igualdad
+``` Python
+is
+3+4 is 3.5*2   #False
+
+is not
+```
+
+#### Operador de membresía
+``` Python
+in
+in not
+
+x = [1,7,9,2,3]
+4 in x    # False
+7 in x    # True
+```
+
+#### Operadores lógicos
+``` python
+not   # !
+and   # &&
+or    # ||
+```
+
+#### Operadores a nivel de bits
+``` python
+&  # and
+^  # xor
+|  # or
+-  # not
+<< # desplazamiento a la izquierda
+>> # desplazamiento a la derecha
+```
+
+#### Formatos con print
+``` Python
+  
+
+a = int(input("Dame el valor de a: "))
+
+b = int(input("Dame el valor de b: "))
+
+c = a + b
+
+  
+
+print(a, '+', b, '=', c, sep=" ")
+
+print(f'{a} + {b} = {c}')
+
+print('{1}+{0}={2}'.format(a,b,c))
+```
+
+``` python
+a = 'queso'
+
+b = 'jitomate'
+
+# separa 10 espacios para a
+
+print(f'{a:10} ---> {len(a):5d} ')
+
+print(f'{b:10} ---> {len(b):5d} ')
+
+  
+
+# end reemplaza el final de la linea
+
+print("a".rjust(10), end = "") # Justificación a la derecha
+
+print("a".ljust(10)) # Justificación a la izquierda
+
+print("a".center(10)) # Justificación centrada
+```

@@ -1,16 +1,28 @@
 Tags: [[Aprendizaje Automático]] [[IA]] 
-
+#MachineLearning #AI
 
 ## Machine learning
+==**A set of tools for making inferences and predictions from data**==
 Es la rama de la IA, estudia como dotar a las maquinas de pensamiento inteligente.
 **Aprende patrones desde datos.**
 
 ==El machine learning se refiere a un conjunto de técnicas estadísticas denominadas modelos de machine learning que se pueden utilizar de forma independiente o para respaldar otras técnicas de IA más complejas.==
 
+### Que puede hacer?
+- **Predict** future events
+	- Will it rain tomorrow?
+		- Yes(75% probability)
+- Infer the causes of events and behaviors
+	- Why does it rain?
+		- Time of the year, humidity levels, temperature, location, etc.
+- **Infer** patterns
+	- What are the different types of weather conditions?
+		- Rain, Sunny, overcast, fog, etc.
+
 #### **Tipos de aprendizaje** 
-- **Supervisado:** hay etiquetas (spam/no spam) 
-- **No supervisado:** descubre grupos (segmentación de clientes)  
-- **Por refuerzo:** aprende por prueba y error (recomendación de rutas)
+- **[[Supervisado]]:** hay etiquetas (spam/no spam) 
+- **[[No supervisado]]:** descubre grupos (segmentación de clientes)  
+- **[[Por refuerzo]]:** aprende por prueba y error (recomendación de rutas)
 
 ## Técnicas
 - Regresión lineal
@@ -42,7 +54,8 @@ Superará al humano
 - Conversion de texto a voz
 
 
-
+### Training Data
+Data existente para aprender
 
 ## Redes neuronales
 Se modela a partir de la estructura de un cerebro
