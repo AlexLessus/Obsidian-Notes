@@ -8,6 +8,14 @@ Es la rama de la IA, estudia como dotar a las maquinas de pensamiento inteligent
 
 ==El machine learning se refiere a un conjunto de técnicas estadísticas denominadas modelos de machine learning que se pueden utilizar de forma independiente o para respaldar otras técnicas de IA más complejas.==
 
+## Técnicas
+- **Agrupación**: Esta técnica agrupa observaciones que comparten similitudes. 
+	datos podrían agruparse por características como especies en flores o por atributos como color y origen. K-Means y DBSCAN
+	K-Means requiere especificar el número de grupos por adelantado, mientras que DBSCAN define grupos basados en la densidad.
+- **Detección de Anomalías**:
+	Se centra en identificar puntos de datos que se desvían significativamente de la mayoría de los datos. Un ejemplo dado fue un punto muy alejado de un grupo, lo que podría indicar un error o un valor atípico que necesita una mayor investigación.
+- **Asociación**: 
+	se utiliza la asociación para encontrar relaciones entre observaciones, a menudo utilizada en el análisis de la cesta de la compra para entender los patrones de comportamiento del consumidor, como la probabilidad de comprar pan al comprar mermelada.
 ### Que puede hacer?
 - **Predict** future events
 	- Will it rain tomorrow?
