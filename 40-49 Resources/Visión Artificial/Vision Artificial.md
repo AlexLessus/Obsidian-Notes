@@ -9,7 +9,7 @@ Breve mapa mental del tema.
 
 ## 📂 Subtemas / Categorías
 ### 1. Fundamentos
-- [[ ]]
+- [[Computer vision]] 
 - [[ ]]
 
 ### 2. Nivel Intermedio

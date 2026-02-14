@@ -20,6 +20,9 @@ Técnica para diseñar sistemas inteligentes que tengan la capacidad de aprender
 - [[Aprendizaje por reforzamiento]]
 - [[Deep learning]]
 - [[redes neuronales]]
+- [[Procesamiento de lenguajes naturales]]
+- [[Limites del Machine Learning]]
+- [[Etica de la IA]]
 
 ### 2. Nivel Intermedio
 - [[  ]]
