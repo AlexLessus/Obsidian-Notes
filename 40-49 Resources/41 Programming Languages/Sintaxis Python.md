@@ -18,7 +18,7 @@ El valor de (a+b)*c es 14
 
 
 ### Palabras reservadas
-``` 
+``` python
 >>> help("keywords")
 
 Here is a list of the Python keywords.  Enter any keyword to get more help.
@@ -36,13 +36,13 @@ break               for                 not
 
 
 ### Listar elementos dentro de un modulo  dir()
-``` Pyton
+``` Python
 >>> dir(keyword)
 ['__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'iskeyword', 'issoftkeyword', 'kwlist', 'softkwlist']
 ```
 
 
-```
+``` python
 >>> help(math.acos)
 Help on built-in function acos in module math:
 
@@ -149,4 +149,11 @@ print("a".rjust(10), end = "") # Justificación a la derecha
 print("a".ljust(10)) # Justificación a la izquierda
 
 print("a".center(10)) # Justificación centrada
+```
+
+
+## User input
+``` Python
+username = input('Enter your name:') 
+age = input(int('Enter your age:'))
 ```

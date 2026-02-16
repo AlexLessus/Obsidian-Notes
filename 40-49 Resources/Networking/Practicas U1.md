@@ -24,7 +24,7 @@ Producto: Informe técnico con propuesta de mejora conforme a FCAPS.
 
 
 
-%%Dos documentos, análisis y propuesta - una persona lo sube, pdf, portada con integrantes %%
+%%Dos documentos, análisis y propuesta - una persona lo sube, pdf, portada con integrantes %%   
 
 
 ### Introducción y Objetivo

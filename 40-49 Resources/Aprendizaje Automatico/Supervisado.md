@@ -9,11 +9,23 @@ We're predicting a discrete variable, a variable that can only take a few differ
 - Is this mole cancerous or not? Is this wine red, white or rosé? 
 - Is this flower a rose, a tulip, a carnation, a lily?
 
+## Técnicas
+- Arboles de decision
+- Clasificador de bayes
+- Maquina de soporte vectorial SVM
+- K-vecino mas cercano KNM
+- Redes neuronales
+- Random forest
+
 # Regression
 Assigning a continuous variable
 - how much will this stock be worth? 
 - What is this exoplanet's mass? 
 - How tall will this child be as an adult?
+
+## Técnicas
+- Regresión lineal
+- Regresión logística
 
 ## Classification vs regression
 It's up to you to choose whether you want to frame your problem as a regression or classification problem. 
