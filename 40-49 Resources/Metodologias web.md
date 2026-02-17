@@ -105,3 +105,19 @@ Contras: La metodología Lean puede ser difícil de aplicar en una organización
 Este enfoque requiere una estrecha colaboración entre el equipo de desarrollo y el cliente.
 
 La metodología Lean puede no ser adecuada para todo tipo de proyectos.
+
+
+### **WSDM (Web Site Design Method)**
+Es una metodología **centrada en el usuario**. Su filosofía es que el sitio web debe diseñarse basándose en quién lo va a usar y qué quiere hacer, en lugar de estructurarlo según cómo están guardados los datos en la base de datos. Divide a los usuarios en "clases de audiencia" para darles una experiencia personalizada.
+
+### **SOHDM (Scenario-based Object-Oriented Hypermedia Design)**
+Se enfoca en el **comportamiento y la navegación**. Utiliza "escenarios" (parecidos a los casos de uso) para describir cómo interactúa el usuario con la aplicación. Es muy útil para definir flujos complejos, asegurando que el usuario no se "pierda" entre tantas páginas o funciones.
+
+### **OOHDM (Object-Oriented Hypermedia Design Method)***
+Es el estándar de oro en la academia. Su gran aporte es la **separación de preocupaciones**: primero diseñas los datos (Modelo Conceptual), luego cómo se viaja entre ellos (Modelo Navegacional) y finalmente cómo se ve (Modelo de Interfaz). Esto evita que la lógica de la aplicación se mezcle con el diseño visual.
+
+### **WAE (Web Application Extension for UML)**
+No es una metodología de pasos, sino un **lenguaje visual**. Son "piezas extra" para los diagramas UML que ya conoces. Sirve para representar elementos que el UML estándar no entiende bien, como la diferencia entre una página que se renderiza en el servidor (Node.js) y una que vive en el cliente (React).
+
+### **IWEB (Ingeniería Web)**
+Es el marco de trabajo **integral y profesional**. A diferencia del desarrollo web "amateur" donde se programa y se corrige sobre la marcha, IWEB aplica principios de ingeniería (planificación, modelado, pruebas de calidad y mantenimiento) para garantizar que el sitio sea escalable y seguro a largo plazo.

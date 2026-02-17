@@ -1,11 +1,11 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#Baby  ",
@@ -20,11 +20,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.14417879417879,
   "lineSizeMultiplier": 2.30550935550936,
-  "collapse-forces": true,
+  "collapse-forces": false,
   "centerStrength": 0.526041666666667,
   "repelStrength": 9.89583333333333,
   "linkStrength": 0.848958333333333,
   "linkDistance": 228,
-  "scale": 0.20710598092726767,
+  "scale": 0.16208485012244525,
   "close": true
 }
