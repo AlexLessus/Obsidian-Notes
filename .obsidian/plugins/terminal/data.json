@@ -17,6 +17,7 @@
     "8b8af1bb-ac0c-4772-b962-1f7ca4af1885": {
       "args": [],
       "executable": "C:\\Windows\\System32\\cmd.exe",
+      "followTheme": true,
       "name": "",
       "platforms": {
         "win32": true
@@ -38,6 +39,7 @@
     "win32IntegratedDefault": {
       "args": [],
       "executable": "C:\\Windows\\System32\\cmd.exe",
+      "followTheme": true,
       "name": "",
       "platforms": {
         "win32": true
@@ -59,6 +61,7 @@
     "win32ExternalDefault": {
       "args": [],
       "executable": "C:\\Windows\\System32\\cmd.exe",
+      "followTheme": true,
       "name": "",
       "platforms": {
         "win32": true
@@ -76,6 +79,7 @@
       "type": "external"
     },
     "developerConsole": {
+      "followTheme": true,
       "name": "",
       "restoreHistory": false,
       "rightClickAction": "copyPaste",
@@ -94,6 +98,7 @@
         "\"$PWD\""
       ],
       "executable": "/System/Applications/Utilities/Terminal.app/Contents/macOS/Terminal",
+      "followTheme": true,
       "name": "",
       "platforms": {
         "darwin": true
@@ -113,6 +118,7 @@
     "darwinIntegratedDefault": {
       "args": [],
       "executable": "/bin/zsh",
+      "followTheme": true,
       "name": "",
       "platforms": {
         "darwin": true
@@ -134,6 +140,7 @@
     "linuxExternalDefault": {
       "args": [],
       "executable": "xterm",
+      "followTheme": true,
       "name": "",
       "platforms": {
         "linux": true
@@ -153,6 +160,7 @@
     "linuxIntegratedDefault": {
       "args": [],
       "executable": "/bin/sh",
+      "followTheme": true,
       "name": "",
       "platforms": {
         "linux": true

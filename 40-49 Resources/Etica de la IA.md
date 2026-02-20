@@ -33,3 +33,6 @@ Uno de los mayores retos éticos es la **interpretabilidad**.
 
 ### Privacidad y Seguridad de Datos
 - Los sistemas de IA deben ser capaces de aprender patrones generales sin memorizar datos específicos de individuos que puedan ser filtrados mediante ataques de inferencia.
+
+
+
