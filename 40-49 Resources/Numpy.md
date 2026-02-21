@@ -4,6 +4,112 @@ Tags: [[Aprendizaje Automático]] [[Python]]
 - Slicing is where we can access parts of a sequence with `name[start:end]`.
 - 2D arrays have 1D arrays as elements.
 
+# import
+``` python
+import numpy as np
+```
+
+%% los tipos de datos que inician con 'u' son números sin signo
+	'ubyte', 'ufunc', 'uint', 'uint16', 'uint32', 'uint64', 'uint8', 'uintc', 'uintp', 'ulong', 'ulonglong',
+%%
+## NumPy Array
+An **array** is the core data structure of the NumPy package. It’s a grid of values.
+
+``` python
+rent = [1500, 1500, 1500, 1500, 1750, 1750]
+
+rent = np.array([1500, 1500, 1500, 1500, 1750, 1750])
+
+# tambien se puede inicializar con tuplas
+d1 = np.array((10,15,20,25))
+
+arr = no.array( , , ,order='c')# c Ordena en columnas - f en filas 
+arr = no.array( , , ,dtype=np.float32)# define el tipo de dato
+#  np.float32 np.f32
+np.float32
+# 
+```
+
+La base de cualquier arreglo es `ndarray`
+
+### Inicializar array con ceros o unos
+``` python
+ceros = np.zeros((3,3), dtype= "uint8")
+# [[0 0 0] 
+#  [0 0 0] 
+#  [0 0 0]]
+
+unos = np.ones((3,3,2), dtype="float32")
+
+```
+## Indexing
+In Python lists, we access individual items using the bracket notation. In NumPy arrays, we can access individual elements the same way!
+
+The following array contains the coffee intake in a work week.
+``` python
+coffee = np.array([3, 2, 1, 0, 1])
+```
+- The element at index 0 is `3`.
+- The element at index 1 is `2`.
+- The element at index 2 is `1`.
+- The element at index 3 is `0`.
+- The element at index 4 is `1`.
+To output each of the elements, we can use the `name[index]` syntax:
+``` python 
+print(coffee[0])   # Output: 3
+print(coffee[1])   # Output: 2
+print(coffee[2])   # Output: 1
+print(coffee[3])   # Output: 0
+print(coffee[4])   # Output: 1
+```
+
+## Slicing
+
+Same thing with slicing! We can slice NumPy arrays the same way as Python lists.
+
+Slicing is where we can access certain parts of a sequence. We can get multiple elements by specifying where to start slicing and where to end like `name[start : end]`.
+
+``` python
+coffee = np.array([3, 2, 1, 0, 1])
+
+# name[start:end]
+print(coffee[0:2])    # Output: [3 2]
+print(coffee[2:])     # Output: [1 0 1]
+print(coffee[-2:])    # Output: [0 1]
+```
+It starts from the `start` index (inclusive) and ends before the `end` index (non-inclusive).
+
+## 2D Arrays
+So far in this course, we’ve been only working with 1D (1-dimensional) arrays:
+``` python
+arr = np.array([1, 2, 3, 4, 5, 6])
+```
+We can also write the same 2D array in a grid format (easier for the eyes):
+``` python
+arr = np.array([
+  [1, 2, 3], 
+  [4, 5, 6],
+  [7, 8, 9]
+])
+```
+- The element at index 0 is `[1, 2, 3]`.
+- The element at index 1 is `[4, 5, 6]`.
+- The element at index 2 is `[7, 8, 9]`.
+To output each of the elements:
+
+```python
+print(arr[0])     # Output: [1, 2, 3]
+print(arr[1])     # Output: [4, 5, 6]
+print(arr[2])     # Output: [7, 8, 9]
+```
+
+We can also be more specific with `arr[row][column]`. For example:
+
+``` python
+print(arr[0][0])  # Output: 1
+print(arr[0][2])  # Output: 3
+print(arr[2][2])  # Output: 9
+```
 # Operators
 **basic operators:**
 - `+` Addition
@@ -117,3 +223,52 @@ print(arr)   # Output: [1 4 7]
 - We stop at the value 10.
 - We go up 3 each time.
 
+
+### Más Métodos
+```python
+d1 = np.array((10,15,20,25))
+
+print(d1)       # Output: [10 15 20 25]
+
+print(type(d1)) # Output:       - <class 'numpy.ndarray'>
+
+print(d1.ndim)  # Output: 1     - numero de dimenciones
+
+print(d1.shape) # Output: (4,)  - Estructura del arreglo
+
+print(d1.size)  # Output:4      - Cantidad de elementos
+
+print(d1.dtype) # Output: int64 - tipo de dato
+
+print(d0.itemsize)#             - numero de bytes en que se almacenta
+```
+
+``` python
+d2 = np.array([[2,4,6],[8,10,12],[14,16,18]])
+
+print(d2)
+print(type(d2))
+print(d2.ndim)
+print(d2.shape)
+print(d2.size)
+print(d2.dtype)
+## Output
+# [[ 2 4 6] 
+# [ 8 10 12]
+# [14 16 18]] 
+# <class 'numpy.ndarray'> 
+# 2 
+# (3, 3) 
+# 9 
+# int64
+
+
+# llena el array con 5.8 
+otra = np.full((10), 5.8, dtype="float32")
+
+# llena el array con numeros del 1 al 19
+otro2 = np.arange(1, 11, 1)
+
+# divide entre 10 cada numero del rango 0-3
+otro3 = np.linspace(0, 3, 10) 
+```

@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40-49 Resources/Numpy.md",
+                "file": "40-49 Resources/Mathplotlib.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Numpy"
-            }
-          },
-          {
-            "id": "ac074461f713c2e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40-49 Resources/Estructuras de control y selección - Módulos y funciones.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Estructuras de control y selección - Módulos y funciones"
+              "title": "Mathplotlib"
             }
           }
         ]
@@ -92,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 266.5,
+    "collapsed": true
   },
   "right": {
     "id": "9d0d0b7fad4aa1bd",
@@ -109,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40-49 Resources/Numpy.md",
+                "file": "HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Numpy"
+              "title": "Backlinks for HomePage"
             }
           },
           {
@@ -171,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40-49 Resources/Numpy.md",
+                "file": "40-49 Resources/Mathplotlib.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Numpy"
+              "title": "Outline of Mathplotlib"
             }
           },
           {
@@ -241,14 +228,22 @@
   },
   "active": "b4f667e5539bb1c3",
   "lastOpenFiles": [
-    "40-49 Resources/Estructuras de control y selección - Módulos y funciones.md",
+    "40-49 Resources/Mathplotlib.md",
     "40-49 Resources/Numpy.md",
+    "40-49 Resources/Colab.md",
+    "40-49 Resources/Desarrollo Web/HTML.md",
+    "HomePage.md",
+    "40-49 Resources/Scikit-learn.md",
+    "40-49 Resources/41 Programming Languages/Pandas.md",
+    "40-49 Resources/Estructuras de control y selección - Módulos y funciones.md",
+    "40-49 Resources/Procesamiento de lenguajes naturales.md",
+    "40-49 Resources/Por refuerzo.md",
+    "40-49 Resources/Limites del Machine Learning.md",
     "40-49 Resources/41 Programming Languages/Sintaxis Python.md",
     "40-49 Resources/41 Programming Languages/Introducción Python.md",
     "90-99 Archive/Images/Pasted image 20260219174948.png",
     "40-49 Resources/Optimización de Hiperparámetros en Modelos de Aprendizaje Automático para la Mejora de la Precisión en la Detección de Intrusiones de Red..md",
     "40-49 Resources/Roadmap Investigación.md",
-    "HomePage.md",
     "40-49 Resources/Tipos de datos - Funciones.md",
     "40-49 Resources/Untitled 1.md",
     "40-49 Resources/41 Programming Languages/Python.md",
@@ -256,21 +251,13 @@
     "40-49 Resources/Tema2.md",
     "40-49 Resources/Networking/Administración de redes.md",
     "40-49 Resources/Networking/Tema 1.md",
-    "40-49 Resources/Scikit-learn.md",
     "90-99 Archive/Images/Pasted image 20260217234048.png",
     "90-99 Archive/Images/Pasted image 20260217231602.png",
     "40-49 Resources/Coffee ratio.md",
     "40-49 Resources/Librerias ML.md",
     "40-49 Resources/Como evitar el sesgo en el ML.md",
     "40-49 Resources/Untitled.md",
-    "40-49 Resources/Etica de la IA.md",
-    "10-19 Journal/02-12-2026.md",
-    "40-49 Resources/Aprendizaje Automatico/Aprendizaje Automático.md",
-    "40-49 Resources/Aprendizaje Automatico/Metodologia CRISP-DM (Cross Industry Standard Process for Data Mining).md",
-    "40-49 Resources/HTML cheatSheet.md",
     "90-99 Archive/Images/Pasted image 20260217082003.png",
-    "10-19 Journal/02-17-2026.md",
-    "40-49 Resources/Estructura HTML.md",
     "90-99 Archive/Images/Pasted image 20260213230123.png",
     "90-99 Archive/Images/Pasted image 20260213225626.png",
     "90-99 Archive/Images/Pasted image 20260213224752.png",

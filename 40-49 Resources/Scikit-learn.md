@@ -193,3 +193,131 @@ Output
 
 ![[Pasted image 20260217231602.png]]
 
+# Regresión
+La regresión se usa para predecir valores continuos, como precios o niveles de glucosa.
+
+``` python
+# Cargar el dataset y mostrar las primeras filas
+import pandas as pd
+data = pd.read_csv('health_data.csv')
+print(data.head())
+
+# Separar las características y la variable objetivo
+X = data.drop('blood_glucose', axis=1)
+y = data['blood_glucose'].values
+
+# Seleccionar solo la característica de IMC
+X_bmi = X.iloc[:, 3].values
+
+# Asegurar que X_bmi tenga la forma correcta (2D)
+import numpy as np
+X_bmi = X_bmi.reshape(-1, 1)
+
+# Visualizar la relación
+import matplotlib.pyplot as plt
+plt.scatter(X_bmi, y)
+plt.xlabel('Índice de Masa Corporal (IMC)')
+plt.ylabel('Niveles de glucosa en sangre')
+plt.show()
+
+# Crear y ajustar el modelo de regresión lineal
+from sklearn.linear_model import LinearRegression
+reg = LinearRegression()
+reg.fit(X_bmi, y)
+
+# Hacer predicciones
+predicciones = reg.predict(X_bmi)
+
+# Graficar la línea de regresión
+plt.scatter(X_bmi, y)
+plt.plot(X_bmi, predicciones, color='black')
+plt.xlabel('Índice de Masa Corporal (IMC)')
+plt.ylabel('Niveles de glucosa en sangre')
+plt.show()
+
+```
+
+
+
+## **Ajustar una línea a los datos (regresión simple):**
+Consiste en encontrar la mejor línea recta que pase cerca de los datos, usando métodos como `np.polyfit`. La línea se define por su pendiente y su intercepto.
+``` python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Datos de ejemplo
+x = np.array([1, 2, 3, 4, 5])
+y = np.array([2, 4, 5, 4, 5])
+
+# Ajustar una línea usando numpy
+coef = np.polyfit(x, y, 1)  # grado 1 para línea recta
+a, b = coef
+print(f"Pendiente (a): {a}, Intercepto (b): {b}")
+
+# Graficar
+plt.scatter(x, y)
+plt.plot(x, a*x + b, color='red')
+plt.show()
+```
+
+## Función de pérdida: suma de residuos al cuadrado (RSS):
+Es la suma de los cuadrados de las diferencias entre los valores observados y los predichos por la línea. Minimizar esta suma ayuda a encontrar la mejor línea ajustada a los datos.
+```python
+# Residuales
+residuals = y - (a * x + b)
+
+# RSS
+rss = np.sum(residuals ** 2)
+print(f"RSS: {rss}")
+```
+
+## Regresión lineal múltiple con scikit-learn:
+Cuando tienes varias características, puedes usar `LinearRegression` para ajustar un modelo que predice la variable objetivo en función de todas esas características.
+``` python
+from sklearn.linear_model import LinearRegression
+import numpy as np
+
+# Datos ejemplo con varias características
+X = np.array([[1, 2], [2, 1], [3, 4], [4, 3], [5, 5]])
+y = np.array([3, 3, 7, 7, 10])
+
+# Crear y ajustar el modelo
+model = LinearRegression()
+model.fit(X, y)
+
+# Coeficientes
+print("Coeficientes:", model.coef_)
+print("Intercepción:", model.intercept_)
+
+# Predicciones
+y_pred = model.predict(X)
+```
+
+## Evaluar el modelo con R-cuadrado y RMSE:
+Se usan métricas como R-cuadrado para medir qué porcentaje de la variación en los datos explica el modelo, y RMSE para entender el error promedio en las predicciones.
+```python
+from sklearn.metrics import mean_squared_error
+
+# R-cuadrado
+r2 = model.score(X, y)
+print(f"R-cuadrado: {r2}")
+
+# RMSE
+rmse = np.sqrt(mean_squared_error(y, y_pred))
+print(f"RMSE: {rmse}")
+```
+## Rendimiento de la regresión
+``` python
+# Import root_mean_squared_error
+from sklearn.metrics import root_mean_squared_error
+
+# Compute R-squared
+r_squared = reg.score(X_test, y_test)
+
+# Compute RMSE
+rmse = root_mean_squared_error(y_test, y_pred)
+
+# Print the metrics
+print("R^2: {}".format(r_squared))
+print("RMSE: {}".format(rmse))
+```
