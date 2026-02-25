@@ -271,4 +271,13 @@ otro2 = np.arange(1, 11, 1)
 
 # divide entre 10 cada numero del rango 0-3
 otro3 = np.linspace(0, 3, 10) 
+
+
+# Print out the mean of np_height_in
+print(np.mean(np_height_in))
+  
+# Print out the median of np_height_in
+print(np.median(np_height_in))
 ```
+
+

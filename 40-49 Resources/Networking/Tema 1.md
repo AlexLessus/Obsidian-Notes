@@ -1,4 +1,4 @@
-
+Tags: [[Administración de redes]] 
 ![[Pasted image 20260128000106.png]]
 
 A partir de una buena administración de una red, se puede definir como una red eficiente, teniendo en cuenta los puntos que se encuentran dentro de esta unidad y que son:

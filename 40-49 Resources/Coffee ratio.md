@@ -1,9 +1,9 @@
-|**Si el café sabe...**|**Problema común**|**Solución sugerida**|
-|---|---|---|
-|**Agrio, salado o muy ácido**|Sub-extracción|Muele más fino o usa agua más caliente.|
-|**Amargo, seco o astringente**|Sobre-extracción|Muele más grueso o baja la temperatura.|
-|**Débil o acuoso**|Ratio muy alto|Usa menos agua (pasa de 1:17 a 1:15).|
-|**Muy fuerte o "pesado"**|Ratio muy bajo|Usa más agua (pasa de 1:15 a 1:17).|
+| **Si el café sabe...**         | **Problema común** | **Solución sugerida**                   |
+| ------------------------------ | ------------------ | --------------------------------------- |
+| **Agrio, salado o muy ácido**  | Sub-extracción     | Muele más fino o usa agua más caliente. |
+| **Amargo, seco o astringente** | Sobre-extracción   | Muele más grueso o baja la temperatura. |
+| **Débil o acuoso**             | Ratio muy alto     | Usa menos agua (pasa de 1:17 a 1:15).   |
+| **Muy fuerte o "pesado"**      | Ratio muy bajo     | Usa más agua (pasa de 1:15 a 1:17).     |
 ### 1. Las Variables del Café
 - **Molienda (Grind Size):** Es la variable más importante para ajustar el sabor.    
     - _Fina:_ Aumenta la superficie de contacto, extrayendo más rápido (riesgo de amargor).
