@@ -13,7 +13,7 @@ Estas funciones sirven para crear o modificar el comportamiento de otras funcion
     - `Ejemplo:` `curry fst 1 2` -> La función `fst` saca el primer elemento de una tupla. `curry` le permite aceptar los números por separado. Resultado: `1`.        
 - **uncurry:** El proceso inverso. Convierte una función de dos argumentos separados en una que espera una tupla.    
     - `Ejemplo:` `uncurry (+) (3, 4)` -> Pasa la tupla a la suma. Resultado: `7`.        
-- **on:** (De la librería `Data.Function`). Toma una funció n binaria, una función unaria y dos valores. Aplica la función unaria a ambos valores y luego aplica la binaria a los resultados.   
+- **on:** (De la librería `Data.Function`). Toma una función binaria, una función unaria y dos valores. Aplica la función unaria a ambos valores y luego aplica la binaria a los resultados.   
     - `Ejemplo:` `((+) on length) "hola" "luz"` -> Calcula las longitudes (4 y 3) y luego las suma. Resultado: `7`.       
 ### 2. Transformación de Estructuras
 - **map:** Aplica una función a cada uno de los elementos de una lista.
