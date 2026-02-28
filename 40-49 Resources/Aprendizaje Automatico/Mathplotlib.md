@@ -102,6 +102,7 @@ Matplotlib then connects these points with a line:
 
 The **x-axis** runs horizontally (left to right), and the **y-axis** runs vertically (bottom to top).
 
+# Personalización
 ## Titles & Axis Labels
 Titles
 ```python
@@ -113,6 +114,110 @@ Axis Labels
 plt.xlabel('Day of the Week')
 plt.ylabel('Number of Emails')
 ```
+
+## Ticks - Marcas
+Marcas en el eje x, en vez de 1000 muestra 1k
+``` python
+# Scatter plot
+plt.scatter(gdp_cap, life_exp)
+
+# Previous customizations
+plt.xscale('log') 
+plt.xlabel('GDP per Capita [in USD]')
+plt.ylabel('Life Expectancy [in years]')
+plt.title('World Development in 2007')
+  
+# Definition of tick_val and tick_lab
+tick_val = [1000, 10000, 100000]
+tick_lab = ['1k', '10k', '100k']
+  
+# Adapt the ticks on the x-axis
+plt.xticks(tick_val, tick_lab)
+  
+# After customizing, display the plot
+plt.show()
+```
+![[Pasted image 20260225212015.png]]
+
+## Tamaños
+Cambiar el tamaño de los puntos
+``` python
+# Import numpy as np
+import numpy as np
+
+# Store pop as a numpy array: np_pop
+np_pop = np.array(pop)
+  
+# Double np_pop
+np_pop = np_pop * 2
+
+# Update: set s argument to np_pop  s=size
+plt.scatter(gdp_cap, life_exp, s = np_pop)
+
+# Previous customizations
+plt.xscale('log') 
+plt.xlabel('GDP per Capita [in USD]')
+plt.ylabel('Life Expectancy [in years]')
+plt.title('World Development in 2007')
+
+plt.xticks([1000, 10000, 100000],['1k', '10k', '100k'])
+
+# Display the plot
+plt.show()
+```
+
+
+## Colores
+`c=col` col es un diccionario de colores
+``` python
+dict = {
+    'Asia':'red',
+    'Europe':'green',
+    'Africa':'blue',
+    'Americas':'yellow',
+    'Oceania':'black'
+}
+```
+
+``` Python
+# Specify c and alpha inside plt.scatter()
+plt.scatter(x = gdp_cap, y = life_exp, s = np.array(pop) * 2, c=col, alpha = 0.8)
+
+# Previous customizations
+plt.xscale('log') 
+plt.xlabel('GDP per Capita [in USD]')
+plt.ylabel('Life Expectancy [in years]')
+plt.title('World Development in 2007')
+plt.xticks([1000,10000,100000], ['1k','10k','100k'])
+
+# Show the plot
+plt.show()
+```
+![[Pasted image 20260225212828.png]]
+
+## Otras personalizaciónes
+```python
+# Scatter plot
+plt.scatter(x = gdp_cap, y = life_exp, s = np.array(pop) * 2, c = col, alpha = 0.8)
+
+# Previous customizations
+plt.xscale('log') 
+plt.xlabel('GDP per Capita [in USD]')
+plt.ylabel('Life Expectancy [in years]')
+plt.title('World Development in 2007')
+plt.xticks([1000,10000,100000], ['1k','10k','100k'])
+
+# Additional customizations
+plt.text(1550, 71, 'India')
+plt.text(5700, 80, 'China')
+
+# Add grid() call
+plt.grid(True)
+
+# Show the plot
+plt.show()
+```
+![[Pasted image 20260225213018.png]]
 
 
 ## Multiple Lines
@@ -319,7 +424,7 @@ The code will create this:
 ![](https://firebasestorage.googleapis.com/v0/b/codedex-io.appspot.com/o/curriculum%2Fimages%2Fmatplotlib-chapter-2%2Fmpl-2-02.png?alt=media&token=ec6c4b1b-1fc2-4bd6-b320-c58f21bb0de9)
 
 
-## Pie Charts
+# Pie Charts
 A **pie chart** shows different categories as slices of a circle. 🥧
 
 Let's say we surveyed people: “What's your favorite pie?” and we got the following votes:
@@ -651,3 +756,33 @@ ax.legend()
 
 plt.show()
 ```
+
+# Histogram
+``` python
+# Create histogram of life_exp data
+plt.hist(life_exp)
+
+# Display histogram
+plt.show()
+```
+![[Pasted image 20260225210946.png]]
+
+
+
+``` python
+# Build histogram with 5 bins
+plt.hist(life_exp, 5)
+  
+# Show and clean up plot
+plt.show()
+plt.clf() 
+
+# Build histogram with 20 bins
+plt.hist(life_exp, 20)
+
+# Show and clean up again
+plt.show()
+plt.clf()
+```
+![[Pasted image 20260225211155.png]]![[Pasted image 20260225211200.png]]
+

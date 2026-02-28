@@ -23,3 +23,19 @@ Tags: [[Taller de Investigación]]
 11. **Difusión:** Plan de cómo se darán a conocer los resultados.
 
 12. **Consultas iniciales:** Bibliografía y fuentes que se planean utilizar
+
+
+
+
+13. Antecedentes del problema (lo ubique en tiempo y espacio, que describa los resultados de investigaciones anteriores), 
+14. Planteamiento del problema, 
+15. Objetivos (General y/o específicos), 
+16. Formulación de hipótesis o supuestos (si corresponde), 
+17. Justificación, 
+18. Diseño del Marco Teórico (referentes teóricos), 
+19. Metodología,
+20. Cronograma, 
+21. Presupuesto, y Fuentes consultadas. 
+
+
+Aplicar el lenguaje técnico-científico de su disciplina y apegarse a los lineamientos para la presentación escrita del documento
