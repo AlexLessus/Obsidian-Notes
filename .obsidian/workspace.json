@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "d436fe1ebc610499",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "db8f9526afe2bb20",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40-49 Resources/Funciones de orden superior.md",
+                "file": "HomePage.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HomePage"
+            }
+          },
+          {
+            "id": "b8550caddf326c6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40-49 Resources/Analogía ojo humano - Camara.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Funciones de orden superior"
+              "title": "Analogía ojo humano - Camara"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -157,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40-49 Resources/Funciones de orden superior.md",
+                "file": "40-49 Resources/Networking/Tema2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Funciones de orden superior"
+              "title": "Outline of Tema2"
             }
           },
           {
@@ -201,7 +216,7 @@
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -212,41 +227,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
       "terminal:Open terminal": false,
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b4f667e5539bb1c3",
+  "active": "b8550caddf326c6c",
   "lastOpenFiles": [
+    "90-99 Archive/Images/Pasted image 20260225073106.png",
+    "40-49 Resources/Analogía ojo humano - Camara.md",
+    "HomePage.md",
+    "40-49 Resources/Networking/Tema2.md",
     "40-49 Resources/Funciones de orden superior.md",
     "40-49 Resources/Taller de investigación/Roadmap Investigación.md",
     "40-49 Resources/Taller de investigación/Optimización de Hiperparámetros en Modelos de Aprendizaje Automático para la Mejora de la Precisión en la Detección de Intrusiones de Red..md",
-    "HomePage.md",
     "10-19 Journal/02-25-2026.md",
     "40-49 Resources/Aprendizaje Automatico/Mathplotlib.md",
-    "Pasted image 20260225213018.png",
-    "Pasted image 20260225212828.png",
-    "Pasted image 20260225212015.png",
-    "Pasted image 20260225211200.png",
-    "Pasted image 20260225211155.png",
-    "Pasted image 20260225210946.png",
+    "90-99 Archive/Images/Pasted image 20260225213018.png",
+    "90-99 Archive/Images/Pasted image 20260225212828.png",
+    "90-99 Archive/Images/Pasted image 20260225212015.png",
+    "90-99 Archive/Images/Pasted image 20260225211200.png",
+    "90-99 Archive/Images/Pasted image 20260225211155.png",
+    "90-99 Archive/Images/Pasted image 20260225210946.png",
     "40-49 Resources/41 Programming Languages/Python.md",
     "40-49 Resources/41 Programming Languages/Estructuras de control y selección - Módulos y funciones.md",
     "40-49 Resources/41 Programming Languages/Sintaxis Python.md",
-    "40-49 Resources/Networking/Tema2.md",
-    "Pasted image 20260225080426.png",
-    "Pasted image 20260225074305.png",
-    "Pasted image 20260225073122.png",
-    "Pasted image 20260225073106.png",
+    "90-99 Archive/Images/Pasted image 20260225080426.png",
+    "90-99 Archive/Images/Pasted image 20260225074305.png",
+    "90-99 Archive/Images/Pasted image 20260225073122.png",
     "40-49 Resources/Networking/Tema 1.md",
     "40-49 Resources/Coffee ratio.md",
     "40-49 Resources/Taller de investigación/Cosas a mejorar.md",
@@ -262,8 +278,6 @@
     "40-49 Resources/Aprendizaje Automatico/Procesamiento de lenguajes naturales.md",
     "40-49 Resources/Aprendizaje Automatico/Por refuerzo.md",
     "40-49 Resources/Aprendizaje Automatico/Limites del Machine Learning.md",
-    "40-49 Resources/41 Programming Languages/Introducción Python.md",
-    "40-49 Resources/41 Programming Languages/Tipos de datos - Funciones.md",
     "00-09 System/Templater",
     "30-39 Projects/My New Project",
     "20-29 Areas/21 Software Engineering",
