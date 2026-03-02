@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HomePage"
-            }
-          },
-          {
-            "id": "b8550caddf326c6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40-49 Resources/Herramientas utilizadas en el diseño y desarrollo de un sistema de visión.md",
+                "file": "40-49 Resources/Networking/Tema2 Servicios de red.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Herramientas utilizadas en el diseño y desarrollo de un sistema de visión"
+              "title": "Tema2 Servicios de red"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,14 +225,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b4f667e5539bb1c3",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "40-49 Resources/Tipos de visión.md",
+    "HomePage.md",
     "40-49 Resources/Herramientas utilizadas en el diseño y desarrollo de un sistema de visión.md",
+    "40-49 Resources/Tipos de visión.md",
     "40-49 Resources/Analogía ojo humano - Camara.md",
     "90-99 Archive/Images/Pasted image 20260225073106.png",
-    "HomePage.md",
-    "40-49 Resources/Networking/Tema2.md",
+    "40-49 Resources/Networking/Tema2 Servicios de red.md",
     "40-49 Resources/Funciones de orden superior.md",
     "40-49 Resources/Taller de investigación/Roadmap Investigación.md",
     "40-49 Resources/Taller de investigación/Optimización de Hiperparámetros en Modelos de Aprendizaje Automático para la Mejora de la Precisión en la Detección de Intrusiones de Red..md",

@@ -13,7 +13,7 @@ El término administración de redes es definido como la suma total de todas las
 ## 📂 Subtemas / Categorías
 ### 1. Fundamentos
 - [[ Tema 1 ]] 
-- [[Tema2]]
+- [[Tema2 Servicios de red]]
 
 ### 2. Nivel Intermedio
 - [[ ]]

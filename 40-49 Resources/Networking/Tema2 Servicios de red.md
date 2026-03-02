@@ -202,3 +202,28 @@ NFS se utiliza ampliamente en:
 - Clústeres de cómputo y HPC.
 - Infraestructura virtualizada (VMware, Proxmox, KVM).
 - Entornos on-premise y cloud privado.
+
+
+### **2.7 Servicio de directorio (LDAP)** 
+LDAP es un servicio que permite **centralizar la información de usuarios, grupos y recursos** en una red.
+
+**¿Para qué se utiliza?**
+- Autenticación centralizada.
+- Control de acceso.
+- Integración de servicios.
+
+**Ventajas**
+- Administración centralizada.
+- Escalable.
+- Mejora la seguridad y control.
+
+**Desventajas**
+- Configuración compleja.
+- Dependencia del servicio.
+- Requiere planificación adecuada.
+
+**Escenarios de uso comunes**
+- Redes empresariales.
+- Active Directory.
+- Plataformas educativas.
+- Infraestructura híbrida y cloud.
