@@ -1,3 +1,4 @@
+tags: [[Vision Artificial]]
 <!DOCTYPE html>
 <html lang="es">
 <head>

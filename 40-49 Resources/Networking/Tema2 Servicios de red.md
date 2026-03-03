@@ -206,6 +206,7 @@ NFS se utiliza ampliamente en:
 
 ### **2.7 Servicio de directorio (LDAP)** 
 LDAP es un servicio que permite **centralizar la información de usuarios, grupos y recursos** en una red.
+![[Pasted image 20260302073444.png]]
 
 **¿Para qué se utiliza?**
 - Autenticación centralizada.
@@ -214,7 +215,7 @@ LDAP es un servicio que permite **centralizar la información de usuarios, grup
 
 **Ventajas**
 - Administración centralizada.
-- Escalable.
+- Escalable. %%Puedes generar tantos usuarios como quieras, si se termina el espacio montas otro servidor%%
 - Mejora la seguridad y control.
 
 **Desventajas**
@@ -227,3 +228,56 @@ LDAP es un servicio que permite **centralizar la información de usuarios, grup
 - Active Directory.
 - Plataformas educativas.
 - Infraestructura híbrida y cloud.
+
+### **2.8 Servicio de correo electrónico (SMTP, POP, IMAP)**
+Conjunto de servicios que permiten **enviar, recibir y almacenar correo electrónico**.
+- **SMTP:** envío.
+- **POP:** descarga local.
+- **IMAP:** acceso remoto al buzón.
+
+![[Pasted image 20260302080054.png]]
+
+**¿Para qué se utiliza?**
+- Comunicación institucional.
+- Notificaciones automáticas.
+- Alertas de sistemas.
+
+**Ventajas**
+- Medio de comunicación estándar.
+- Integración con múltiples sistemas.
+- IMAP permite acceso desde múltiples dispositivos.
+
+**Desventajas**
+- Objetivo de spam y phishing.
+- Requiere medidas de seguridad.
+- Administración compleja en servidores propios.
+
+**Escenarios de uso comunes**
+- Instituciones educativas.
+- Empresas.
+- Sistemas de monitoreo y alertas.
+
+### **2.9 Servicio Proxy**
+Un proxy es un servicio que **intermedia las comunicaciones** entre los usuarios y los servicios externos.
+
+![[Pasted image 20260302080609.png]]
+
+**¿Para qué se utiliza?**
+- Controlar el acceso a Internet.
+- Filtrar contenido.
+- Mejorar el rendimiento mediante caché.
+
+**Ventajas**
+- Control y monitoreo.
+- Mejora el desempeño.
+- Apoyo a políticas de seguridad.
+
+**Desventajas**- Punto único de falla.
+- Configuración compleja.
+- Puede afectar la experiencia del usuario.
+
+**Escenarios de uso comunes**
+- Redes escolares.
+- Empresas.
+- Control de navegación.
+- Cumplimiento de políticas institucionales.
