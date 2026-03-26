@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "be5bc864c8100ac6",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40-49 Resources/Aprendizaje Automatico/Mathplotlib.md",
-                "mode": "source",
+                "file": "HomePage.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mathplotlib"
+              "title": "HomePage"
             }
           }
         ]
@@ -61,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Buscar"
             }
           },
           {
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -157,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40-49 Resources/Aprendizaje Automatico/Mathplotlib.md",
+                "file": "HomePage.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Mathplotlib"
+              "title": "Esquema de HomePage"
             }
           },
           {
@@ -227,10 +228,22 @@
   },
   "active": "b4f667e5539bb1c3",
   "lastOpenFiles": [
-    "40-49 Resources/41 Programming Languages/Pandas.md",
-    "40-49 Resources/Aprendizaje Automatico/Mathplotlib.md",
-    "40-49 Resources/Visión Artificial/Linea del tiempo VA.md",
     "HomePage.md",
+    "40-49 Resources/Charla visión artificial.md",
+    "40-49 Resources/Visión Artificial/Computer vision.md",
+    "40-49 Resources/Visión Artificial/Vision Artificial.md",
+    "40-49 Resources/videojuego.md",
+    "40-49 Resources/Limpieza de datos.md",
+    "40-49 Resources/Aprendizaje Automatico/Mathplotlib.md",
+    "40-49 Resources/41 Programming Languages/Estructuras de control y selección - Módulos y funciones.md",
+    "40-49 Resources/41 Programming Languages/Tipos de datos - Funciones.md",
+    "40-49 Resources/41 Programming Languages/Python.md",
+    "40-49 Resources/41 Programming Languages/Tipos de datos Python.md",
+    "40-49 Resources/41 Programming Languages/Introducción Python.md",
+    "40-49 Resources/Prompting.md",
+    "40-49 Resources/41 Programming Languages/Importing Datasets With Pandas.md",
+    "40-49 Resources/41 Programming Languages/Pandas.md",
+    "40-49 Resources/Visión Artificial/Linea del tiempo VA.md",
     "40-49 Resources/Networking/Tema2 Servicios de red.md",
     "Pasted image 20260302080609.png",
     "Pasted image 20260302080054.png",
@@ -245,25 +258,13 @@
     "40-49 Resources/Analogía ojo humano - Camara.md",
     "90-99 Archive/Images/Pasted image 20260225073106.png",
     "40-49 Resources/Funciones de orden superior.md",
-    "40-49 Resources/Taller de investigación/Roadmap Investigación.md",
-    "40-49 Resources/Taller de investigación/Optimización de Hiperparámetros en Modelos de Aprendizaje Automático para la Mejora de la Precisión en la Detección de Intrusiones de Red..md",
-    "10-19 Journal/02-25-2026.md",
     "90-99 Archive/Images/Pasted image 20260225213018.png",
     "90-99 Archive/Images/Pasted image 20260225212828.png",
     "90-99 Archive/Images/Pasted image 20260225212015.png",
     "90-99 Archive/Images/Pasted image 20260225211200.png",
     "90-99 Archive/Images/Pasted image 20260225211155.png",
     "90-99 Archive/Images/Pasted image 20260225210946.png",
-    "40-49 Resources/41 Programming Languages/Python.md",
-    "40-49 Resources/41 Programming Languages/Estructuras de control y selección - Módulos y funciones.md",
-    "40-49 Resources/41 Programming Languages/Sintaxis Python.md",
-    "40-49 Resources/Networking/Tema 1.md",
-    "40-49 Resources/Coffee ratio.md",
-    "40-49 Resources/Taller de investigación/Cosas a mejorar.md",
-    "40-49 Resources/Índice de Libros.md",
     "40-49 Resources/Taller de investigación",
-    "40-49 Resources/Networking/Administración de redes.md",
-    "40-49 Resources/Taller de investigación/Taller de Investigación.md",
     "00-09 System/Templater",
     "30-39 Projects/My New Project",
     "20-29 Areas/21 Software Engineering",
