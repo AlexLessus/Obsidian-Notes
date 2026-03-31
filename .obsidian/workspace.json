@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "HomePage"
             }
+          },
+          {
+            "id": "537032390546c570",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Registro de cambios 1.12.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,8 +87,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -158,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage.md",
+                "file": "40-49 Resources/Ingenieria de características.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de HomePage"
+              "title": "Esquema de Ingenieria de características"
             }
           },
           {
@@ -226,9 +238,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b4f667e5539bb1c3",
+  "active": "537032390546c570",
   "lastOpenFiles": [
     "HomePage.md",
+    "40-49 Resources/Ingenieria de características.md",
+    "40-49 Resources/Introducción ML.md",
+    "Pasted image 20260325215011.png",
+    "10-19 Journal/03-25-2026.md",
     "40-49 Resources/Charla visión artificial.md",
     "40-49 Resources/Visión Artificial/Computer vision.md",
     "40-49 Resources/Visión Artificial/Vision Artificial.md",
@@ -254,16 +270,12 @@
     "40-49 Resources/Aprendizaje Automatico/Colab.md",
     "Pasted image 20260302073444.png",
     "40-49 Resources/Herramientas utilizadas en el diseño y desarrollo de un sistema de visión.md",
-    "40-49 Resources/Tipos de visión.md",
-    "40-49 Resources/Analogía ojo humano - Camara.md",
     "90-99 Archive/Images/Pasted image 20260225073106.png",
-    "40-49 Resources/Funciones de orden superior.md",
     "90-99 Archive/Images/Pasted image 20260225213018.png",
     "90-99 Archive/Images/Pasted image 20260225212828.png",
     "90-99 Archive/Images/Pasted image 20260225212015.png",
     "90-99 Archive/Images/Pasted image 20260225211200.png",
     "90-99 Archive/Images/Pasted image 20260225211155.png",
-    "90-99 Archive/Images/Pasted image 20260225210946.png",
     "40-49 Resources/Taller de investigación",
     "00-09 System/Templater",
     "30-39 Projects/My New Project",
