@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
-                "mode": "preview",
+                "file": "40-49 Resources/Escalamiento de datos y normalización.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HomePage"
-            }
-          },
-          {
-            "id": "537032390546c570",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Registro de cambios 1.12.7"
+              "title": "Escalamiento de datos y normalización"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 275.5
   },
   "right": {
     "id": "9d0d0b7fad4aa1bd",
@@ -238,9 +225,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "537032390546c570",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Pasted image 20260403123521.png",
+    "Pasted image 20260403123513.png",
+    "Pasted image 20260403123503.png",
     "HomePage.md",
+    "40-49 Resources/Escalamiento de datos y normalización.md",
+    "10-19 Journal/04-02-2026.md",
+    "40-49 Resources/Propuesta de solucion.md",
+    "Diagrama en blanco.png",
     "40-49 Resources/Ingenieria de características.md",
     "40-49 Resources/Introducción ML.md",
     "Pasted image 20260325215011.png",
@@ -265,17 +259,10 @@
     "Pasted image 20260302080054.png",
     "40-49 Resources/Desarrollo Web.md",
     "40-49 Resources/Desarrollo Web/Historia de internet.md",
-    "40-49 Resources/Desarrollo Web/Estructura HTML.md",
-    "40-49 Resources/Networking/Comandos Vlan.md",
-    "40-49 Resources/Aprendizaje Automatico/Colab.md",
     "Pasted image 20260302073444.png",
-    "40-49 Resources/Herramientas utilizadas en el diseño y desarrollo de un sistema de visión.md",
     "90-99 Archive/Images/Pasted image 20260225073106.png",
     "90-99 Archive/Images/Pasted image 20260225213018.png",
     "90-99 Archive/Images/Pasted image 20260225212828.png",
-    "90-99 Archive/Images/Pasted image 20260225212015.png",
-    "90-99 Archive/Images/Pasted image 20260225211200.png",
-    "90-99 Archive/Images/Pasted image 20260225211155.png",
     "40-49 Resources/Taller de investigación",
     "00-09 System/Templater",
     "30-39 Projects/My New Project",
