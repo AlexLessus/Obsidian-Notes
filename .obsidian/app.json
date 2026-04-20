@@ -1,5 +1,6 @@
 {
   "newFileLocation": "folder",
   "newFileFolderPath": "40-49 Resources",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false
 }

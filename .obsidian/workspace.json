@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40-49 Resources/Escalamiento de datos y normalización.md",
+                "file": "40-49 Resources/Algoritmos de unificación.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Escalamiento de datos y normalización"
+              "title": "Algoritmos de unificación"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 277.5
   },
   "right": {
     "id": "9d0d0b7fad4aa1bd",
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40-49 Resources/Ingenieria de características.md",
+                "file": "40-49 Resources/Algoritmos de unificación.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Ingenieria de características"
+              "title": "Esquema de Algoritmos de unificación"
             }
           },
           {
@@ -208,7 +208,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 437.5
+    "width": 357.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,44 +225,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "b4f667e5539bb1c3",
   "lastOpenFiles": [
-    "Pasted image 20260403123521.png",
-    "Pasted image 20260403123513.png",
-    "Pasted image 20260403123503.png",
     "HomePage.md",
+    "40-49 Resources/Algoritmos de unificación.md",
+    "10-19 Journal/04-16-2026.md",
+    "40-49 Resources/Preprocesamiento de imágenes.md",
+    "40-49 Resources/OpenCV.md",
+    "40-49 Resources/Bases de datos.md",
+    "40-49 Resources/Servidor Web.md",
+    "40-49 Resources/41 Programming Languages/Sintaxis Python.md",
+    "40-49 Resources/Jesus.md",
+    "40-49 Resources/videojuego.md",
+    "10-19 Journal/04-15-2026.md",
+    "40-49 Resources/perceptron.md",
+    "40-49 Resources/Metricas de desempeño de una red.md",
+    "40-49 Resources/Procesamiento de imagenes.md",
+    "Pasted image 20260414100332.png",
+    "10-19 Journal/04-14-2026.md",
+    "40-49 Resources/Taller de investigación/Optimización de Hiperparámetros en Modelos de Aprendizaje Automático para la Mejora de la Precisión en la Detección de Intrusiones de Red..md",
+    "90-99 Archive/Images/Pasted image 20260302073444.png",
+    "90-99 Archive/Images/Pasted image 20260403123503.png",
+    "40-49 Resources/Analizadores De Protocolos.md",
+    "40-49 Resources/Bitacoras.md",
+    "90-99 Archive/Images/Pasted image 20260413073504.png",
+    "90-99 Archive/Images/Pasted image 20260413073120.png",
+    "90-99 Archive/Images/Pasted image 20260413072723.png",
+    "90-99 Archive/Images/Pasted image 20260413072017.png",
+    "40-49 Resources/Reporte de Avance Metodológico del Proyecto – Fase 1.md",
+    "40-49 Resources/Taller de investigación/Roadmap Investigación.md",
+    "40-49 Resources/Taller de investigación/Taller de Investigación.md",
     "40-49 Resources/Escalamiento de datos y normalización.md",
+    "90-99 Archive/Images/Pasted image 20260403123521.png",
+    "90-99 Archive/Images/Pasted image 20260403123513.png",
     "10-19 Journal/04-02-2026.md",
     "40-49 Resources/Propuesta de solucion.md",
     "Diagrama en blanco.png",
     "40-49 Resources/Ingenieria de características.md",
     "40-49 Resources/Introducción ML.md",
-    "Pasted image 20260325215011.png",
-    "10-19 Journal/03-25-2026.md",
-    "40-49 Resources/Charla visión artificial.md",
-    "40-49 Resources/Visión Artificial/Computer vision.md",
-    "40-49 Resources/Visión Artificial/Vision Artificial.md",
-    "40-49 Resources/videojuego.md",
-    "40-49 Resources/Limpieza de datos.md",
-    "40-49 Resources/Aprendizaje Automatico/Mathplotlib.md",
-    "40-49 Resources/41 Programming Languages/Estructuras de control y selección - Módulos y funciones.md",
-    "40-49 Resources/41 Programming Languages/Tipos de datos - Funciones.md",
-    "40-49 Resources/41 Programming Languages/Python.md",
-    "40-49 Resources/41 Programming Languages/Tipos de datos Python.md",
-    "40-49 Resources/41 Programming Languages/Introducción Python.md",
-    "40-49 Resources/Prompting.md",
-    "40-49 Resources/41 Programming Languages/Importing Datasets With Pandas.md",
-    "40-49 Resources/41 Programming Languages/Pandas.md",
-    "40-49 Resources/Visión Artificial/Linea del tiempo VA.md",
-    "40-49 Resources/Networking/Tema2 Servicios de red.md",
-    "Pasted image 20260302080609.png",
-    "Pasted image 20260302080054.png",
-    "40-49 Resources/Desarrollo Web.md",
-    "40-49 Resources/Desarrollo Web/Historia de internet.md",
-    "Pasted image 20260302073444.png",
-    "90-99 Archive/Images/Pasted image 20260225073106.png",
-    "90-99 Archive/Images/Pasted image 20260225213018.png",
-    "90-99 Archive/Images/Pasted image 20260225212828.png",
     "40-49 Resources/Taller de investigación",
     "00-09 System/Templater",
     "30-39 Projects/My New Project",
