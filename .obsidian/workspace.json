@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40-49 Resources/Algoritmos de unificación.md",
+                "file": "40-49 Resources/cv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algoritmos de unificación"
+              "title": "cv"
             }
           }
         ]
@@ -225,13 +225,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b4f667e5539bb1c3",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "40-49 Resources/OpenCV.md",
+    "40-49 Resources/cv.md",
     "HomePage.md",
     "40-49 Resources/Algoritmos de unificación.md",
     "10-19 Journal/04-16-2026.md",
     "40-49 Resources/Preprocesamiento de imágenes.md",
-    "40-49 Resources/OpenCV.md",
     "40-49 Resources/Bases de datos.md",
     "40-49 Resources/Servidor Web.md",
     "40-49 Resources/41 Programming Languages/Sintaxis Python.md",
@@ -262,7 +263,6 @@
     "40-49 Resources/Propuesta de solucion.md",
     "Diagrama en blanco.png",
     "40-49 Resources/Ingenieria de características.md",
-    "40-49 Resources/Introducción ML.md",
     "40-49 Resources/Taller de investigación",
     "00-09 System/Templater",
     "30-39 Projects/My New Project",
