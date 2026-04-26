@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40-49 Resources/cv.md",
+                "file": "40-49 Resources/Taller de investigación/Optimización de Hiperparámetros en Modelos de Aprendizaje Automático para la Mejora de la Precisión en la Detección de Intrusiones de Red..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cv"
+              "title": "Optimización de Hiperparámetros en Modelos de Aprendizaje Automático para la Mejora de la Precisión en la Detección de Intrusiones de Red."
             }
           }
         ]
@@ -33,6 +33,7 @@
       {
         "id": "ee2a2b7ae36f8d16",
         "type": "tabs",
+        "dimension": 68.52425180598554,
         "children": [
           {
             "id": "0e8811fb1928d537",
@@ -75,10 +76,27 @@
             }
           }
         ]
+      },
+      {
+        "id": "1f7471abbc33ec7d",
+        "type": "tabs",
+        "dimension": 31.475748194014447,
+        "children": [
+          {
+            "id": "d063e480f2e15182",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 300.5
   },
   "right": {
     "id": "9d0d0b7fad4aa1bd",
@@ -87,7 +105,6 @@
       {
         "id": "cf0a145c0d5788b1",
         "type": "tabs",
-        "dimension": 50.3875968992248,
         "children": [
           {
             "id": "b62215ed4b1a8d02",
@@ -172,8 +189,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -188,23 +205,6 @@
           }
         ],
         "currentTab": 6
-      },
-      {
-        "id": "217fd4e32ef63a63",
-        "type": "tabs",
-        "dimension": 49.6124031007752,
-        "children": [
-          {
-            "id": "d063e480f2e15182",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -219,17 +219,22 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "terminal:Open terminal": false,
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
+      "terminal:Open terminal": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "d063e480f2e15182",
   "lastOpenFiles": [
-    "40-49 Resources/OpenCV.md",
-    "40-49 Resources/cv.md",
+    "40-49 Resources/Taller de investigación/Optimización de Hiperparámetros en Modelos de Aprendizaje Automático para la Mejora de la Precisión en la Detección de Intrusiones de Red..md",
+    "40-49 Resources/Taller de investigación/Roadmap Investigación.md",
+    "40-49 Resources/Taller de investigación/Taller de Investigación.md",
     "HomePage.md",
+    "Sin título.canvas",
+    "40-49 Resources/Praxintesis.md",
+    "40-49 Resources/cv.md",
+    "40-49 Resources/OpenCV.md",
     "40-49 Resources/Algoritmos de unificación.md",
     "10-19 Journal/04-16-2026.md",
     "40-49 Resources/Preprocesamiento de imágenes.md",
@@ -244,7 +249,6 @@
     "40-49 Resources/Procesamiento de imagenes.md",
     "Pasted image 20260414100332.png",
     "10-19 Journal/04-14-2026.md",
-    "40-49 Resources/Taller de investigación/Optimización de Hiperparámetros en Modelos de Aprendizaje Automático para la Mejora de la Precisión en la Detección de Intrusiones de Red..md",
     "90-99 Archive/Images/Pasted image 20260302073444.png",
     "90-99 Archive/Images/Pasted image 20260403123503.png",
     "40-49 Resources/Analizadores De Protocolos.md",
@@ -254,15 +258,11 @@
     "90-99 Archive/Images/Pasted image 20260413072723.png",
     "90-99 Archive/Images/Pasted image 20260413072017.png",
     "40-49 Resources/Reporte de Avance Metodológico del Proyecto – Fase 1.md",
-    "40-49 Resources/Taller de investigación/Roadmap Investigación.md",
-    "40-49 Resources/Taller de investigación/Taller de Investigación.md",
     "40-49 Resources/Escalamiento de datos y normalización.md",
     "90-99 Archive/Images/Pasted image 20260403123521.png",
     "90-99 Archive/Images/Pasted image 20260403123513.png",
     "10-19 Journal/04-02-2026.md",
-    "40-49 Resources/Propuesta de solucion.md",
     "Diagrama en blanco.png",
-    "40-49 Resources/Ingenieria de características.md",
     "40-49 Resources/Taller de investigación",
     "00-09 System/Templater",
     "30-39 Projects/My New Project",

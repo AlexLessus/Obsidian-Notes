@@ -1,6 +1,10 @@
 {
-  "cssTheme": "GitHub Theme",
-  "interfaceFontFamily": "Arial",
+  "cssTheme": "AnuPpuccin",
+  "interfaceFontFamily": "Arial,Verdana",
   "textFontFamily": "Malgun Gothic",
-  "accentColor": "#976bff"
+  "accentColor": "",
+  "theme": "obsidian",
+  "baseFontSize": 18,
+  "monospaceFontFamily": "Cascadia Mono",
+  "baseFontSizeAction": true
 }
