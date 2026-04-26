@@ -1,10 +1,8 @@
 [
-  "templater-obsidian",
   "calendar",
-  "dataview",
   "homepage",
-  "terminal",
   "obsidian-git",
   "better-export-pdf",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-excalidraw-plugin"
 ]

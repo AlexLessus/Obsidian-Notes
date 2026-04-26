@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: Tabla
+    filters:
+      and:
+        - file.inFolder("40-49 Resources/Visión Artificial")
+    order:
+      - file.name
+      - file.backlinks
+      - file.folder
