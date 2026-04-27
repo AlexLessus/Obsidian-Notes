@@ -1,0 +1,9 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Plugins
+/.obsidian/plugins/obsidian-style-settings/data.json
+/.obsidian/plugins/copilot/data.json
+/.obsidian/plugins/google-calendar/data.json
