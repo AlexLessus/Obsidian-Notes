@@ -1,6 +1,7 @@
 Alexis De Jesus Perez Carmona
+#MachineLearning 
 ### 1. ¿Qué es el Escalamiento y la Normalización?
-En el aprendizaje automático, los conjuntos de datos suelen contener características (columnas) que varían drásticamente en sus magnitudes, unidades y rangos. Por ejemplo, una variable puede medir la edad (de 18 a 80 años) y otra el salario anual (de $10,000 a $150,000).
+En el aprendizaje automático [[Machine Learning]] , los conjuntos de datos suelen contener características (columnas) que varían drásticamente en sus magnitudes, unidades y rangos. Por ejemplo, una variable puede medir la edad (de 18 a 80 años) y otra el salario anual (de $10,000 a $150,000).
 
 El **escalamiento** y la **normalización** son técnicas de preprocesamiento matemático que transforman los datos numéricos para que todas las variables operen en una escala similar, sin perder la información sobre las distancias o diferencias relativas entre los valores originales.
 
@@ -10,7 +11,7 @@ El **escalamiento** y la **normalización** son técnicas de preprocesamiento ma
 
 ---
 ### 3. Técnicas Principales (Cómo se lleva a cabo)
-Aunque a veces los términos se usan como sinónimos, en la práctica y en librerías como _Scikit-Learn_, representan transformaciones matemáticas distintas:
+Aunque a veces los términos se usan como sinónimos, en la práctica y en librerías como [[Scikit-Learn]], representan transformaciones matemáticas distintas:
 
 #### A) Escalamiento Min-Max (Normalización)
 Transforma los datos para que encajen exactamente en un rango predefinido, típicamente entre **0 y 1**. Es muy útil cuando no asumes que tus datos tienen una distribución normal (campana de Gauss) o cuando necesitas enmarcar los datos en márgenes estrictos (como procesar imágenes donde los píxeles van de 0 a 255).

@@ -1,3 +1,4 @@
+#vision_artificial 
 ### Librerías Base de Visión Computacional
 Estas son las herramientas fundamentales para el procesamiento tradicional de imágenes (filtrado, detección de bordes, transformaciones geométricas).
 - **OpenCV (Open Source Computer Vision Library):** Es el estándar de oro absoluto en la industria. Está escrita en C++, pero tiene integraciones perfectas para Python y Java. Sirve para todo: desde calibrar una cámara hasta detección facial en tiempo real.

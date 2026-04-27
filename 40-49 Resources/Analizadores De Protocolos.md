@@ -1,4 +1,4 @@
-Tags: [[Redes]]
+Tags: [[Redes]] #redes 
 ### **Analizadores de protocolos.**
 
 Un analizador de protocolos es un programa que permite a la computadora capturar tramas de la red para, posteriormente o en tiempo real, proceder a su análisis. Por analizar se entiende que el programa puede reconocer que la trama capturada transporta información asociada a un protocolo.

@@ -1,7 +1,7 @@
 *Alexis De Jesus Perez Carmona*
 # Antecedentes
 #### **Contexto Global y Tecnológico**
-Históricamente, los Sistemas de Detección de Intrusiones (IDS) se basaban en firmas (patrones conocidos), lo cual los hacía inútiles ante ataques nuevos o de "día cero". En años recientes (2020-2025), la literatura científica ha volcado su interés hacia el **Aprendizaje Automático (Machine Learning)** como la herramienta definitiva para identificar anomalías en el tráfico de red mediante el análisis de grandes volúmenes de datos.
+Históricamente, los Sistemas de Detección de Intrusiones (IDS) se basaban en firmas (patrones conocidos), lo cual los hacía inútiles ante ataques nuevos o de "día cero". En años recientes (2020-2025), la literatura científica ha volcado su interés hacia el **Aprendizaje Automático ([[Machine Learning]])** como la herramienta definitiva para identificar anomalías en el tráfico de red mediante el análisis de grandes volúmenes de datos.
 
 #### **Evolución de la Investigación en Ciberseguridad**
 Investigaciones actuales señalan que el uso de algoritmos como _Random Forest_, _XGBoost_ y _Redes Neuronales Convolucionales_ ha permitido alcanzar niveles de precisión superiores al 95% en la detección de ataques tipo DoS (Denegación de Servicio) e infiltraciones. Sin embargo, un reto persistente en la disciplina es la alta tasa de "falsos positivos", lo que motiva la necesidad de realizar investigaciones aplicadas que se centren en la **optimización de modelos** para entornos específicos.

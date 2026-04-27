@@ -1,3 +1,4 @@
+#vision_artificial 
 # Enseñando a ver a las computadoras
 
 ## Introducción

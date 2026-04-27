@@ -1,4 +1,5 @@
 Alexis De Jesus Perez Carmona
+[[Taller de Investigación]]
 # **Actividad 1.- Diseño metodológico del proyecto**
 ### Descripción Metodológica
 La presente investigación adopta un enfoque **cuantitativo** con un diseño **experimental** y de **investigación aplicada**. El procedimiento se divide en cuatro fases técnicas que aseguran la replicabilidad del experimento:

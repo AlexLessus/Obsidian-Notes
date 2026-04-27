@@ -1,3 +1,4 @@
+#MachineLearning 
 ### Definición Teórica
 
 El **perceptrón** es el modelo más simple de una red neuronal con alimentación hacia delante (_feed-forward_) de una sola capa. Fue propuesto originalmente por **Frank Rosenblatt** en 1958 y se inspira en el funcionamiento biológico de una neurona.

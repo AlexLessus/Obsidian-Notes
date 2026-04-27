@@ -1,3 +1,4 @@
+#MachineLearning #dataScience 
 ## Ingeniería de Características (Feature Engineering)
 - **¿En qué consiste?** Es el proceso creativo y analítico de utilizar el conocimiento humano sobre un problema específico para crear **nuevas variables (características)** a partir de los datos crudos (raw data). El objetivo es resaltar la información subyacente para que el algoritmo pueda entenderla y aprender de ella más fácilmente.    
 - **¿Cómo se lleva a cabo?**    

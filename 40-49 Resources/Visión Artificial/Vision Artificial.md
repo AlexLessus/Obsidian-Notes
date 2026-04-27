@@ -2,6 +2,7 @@
 tipo: indice
 tema: Visión Artificial
 ---
+#vision_artificial 
 # 🗺️ MOC: Vision Artificial
 
 ## 📌 Introducción

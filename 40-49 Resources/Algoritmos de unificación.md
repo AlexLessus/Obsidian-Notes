@@ -1,4 +1,6 @@
 Alexis De Jesus Perez Carmona
+#ProgramaciónLogica
+[[Programación Logica]]
 ### El Algoritmo de Robinson (1965)
 Es el algoritmo clásico y pionero, propuesto por John Alan Robinson junto con el principio de resolución.
 

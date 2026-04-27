@@ -1,6 +1,6 @@
 # Sistema de visión para el acceso de vehículos al estacionamiento del acceso 2 del ITCG
 
-Alexis De Jesus Perez Carmona
+#vision_artificial 
 ## Problemática
 Siempre ha sido un problema controlar el acceso de automóviles al estacionamiento exclusivo para el personal del ITCG (Acceso 2), por lo que les solicitan, basado en su gran experiencia en el diseño de sistemas de visión, que diseñen una solución basada en un sistema de visión (SVA) precisamente. Dentro de las capacidades que debe de tener el sistema, es identificar si es del personal o no el automóvil que trata de entrar al estacionamiento, si lo es dar acceso a éste, pero en caso de que no, deberá dirigirlo a cualquiera de los otros tres accesos. También deberá de darle a conocer de acuerdo a las dimensiones del automóvil cuál de las dos áreas es la más indicada para ello (carro grande a la derecha y carro chico mediando a la izquierda). 
 

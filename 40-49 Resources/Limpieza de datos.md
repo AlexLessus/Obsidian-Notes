@@ -1,4 +1,5 @@
 Alexis De Jesus Perez Carmona
+#MachineLearning 
 ### 1. ¿En qué consiste la limpieza de los datos?
 La limpieza de datos (o _Data Cleaning_) es una fase crítica dentro del preprocesamiento. Consiste en identificar, corregir, reemplazar o eliminar registros que sean erróneos, incompletos, irrelevantes o que tengan un formato incorrecto dentro de un conjunto de datos (dataset) antes de alimentar a un modelo algorítmico. Básicamente, es auditar la base de datos para asegurar que la información sea coherente matemáticamente.
 

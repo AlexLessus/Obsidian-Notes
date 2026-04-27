@@ -1,4 +1,4 @@
-Tags: [[Redes]]
+#redes [[Administración de redes]]
 El nombre bitácora está basado en los cuadernos de bitácora, cuadernos de viaje que se utilizaban en los barcos para relatar el desarrollo del viaje y que se guardaban en la bitácora.
 
 El **logging** es el proceso mediante el cual los **sistemas, dispositivos y aplicaciones registran información sobre su funcionamiento**, actividades y eventos relevantes en archivos o bases de datos llamados **registros**.
