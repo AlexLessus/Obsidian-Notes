@@ -1,4 +1,4 @@
-Alexis De Jesus Perez Carmona
+#ProgramaciónLogica 
 
 El **método de resolución** es una técnica matemática de demostración de teoremas utilizada en la lógica proposicional y la lógica de primer orden. Fue introducida por John Alan Robinson en 1965 y es la base teórica de cómo "piensan" y deducen los lenguajes de programación lógica.
 
