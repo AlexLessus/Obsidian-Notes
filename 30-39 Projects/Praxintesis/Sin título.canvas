@@ -1,8 +1,8 @@
 {
 	"nodes":[
-		{"id":"36e04ce29290b9a5","x":-1280,"y":-260,"width":1080,"height":720,"type":"file","file":"90-99 Archive/Images/Pasted image 20260426205802.png"},
 		{"id":"a45e82e81d3d2128","type":"text","text":"# Praxintesis","x":-325,"y":-440,"width":250,"height":60,"color":"1"},
-		{"id":"d173b9e0a9d96f3b","x":-75,"y":-260,"width":675,"height":680,"color":"5","type":"file","file":"30-39 Projects/Praxintesis/Praxintesis.md"}
+		{"id":"d173b9e0a9d96f3b","type":"file","file":"30-39 Projects/Praxintesis/Praxintesis.md","x":-75,"y":-260,"width":675,"height":680,"color":"5"},
+		{"id":"36e04ce29290b9a5","type":"file","file":"90-99 Archive/Images/Pasted image 20260426205802.png","x":-1300,"y":-260,"width":1080,"height":720}
 	],
 	"edges":[
 		{"id":"f18d6d894e10602c","fromNode":"a45e82e81d3d2128","fromSide":"bottom","toNode":"36e04ce29290b9a5","toSide":"top"},
