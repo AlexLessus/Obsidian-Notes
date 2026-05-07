@@ -2,9 +2,11 @@
 ## **Elementos de la seguridad**
 La **seguridad en redes** se fundamenta en una serie de **principios básicos** que permiten proteger la información, los sistemas y los servicios de una organización. Estos principios no deben entenderse solo como conceptos teóricos, sino como **objetivos concretos que guían las decisiones del administrador de redes** en escenarios reales.
 
+
 A continuación, se describen los principales **elementos de la seguridad**.
 ### **Integridad**
 La **integridad** garantiza que la información **no sea alterada de manera no autorizada** durante su almacenamiento, procesamiento o transmisión.
+Garantizar que nuestra información sea segura y que nadie tenga acceso sin permiso.
 
 **Ejemplo práctico:**
 Evitar que se modifiquen **calificaciones almacenadas en un servidor escolar** sin autorización del docente.
@@ -21,6 +23,7 @@ Mantener un **servidor institucional disponible durante horarios críticos de i
 **Impacto en redes:**
 Depende de redundancia, monitoreo y planes de contingencia.
 
+>Redundancia: rutas alternas en la red
 ### **Privacidad (Confidencialidad)**
 La **privacidad** garantiza que la información solo sea accesible por **personas autorizadas**.
 
@@ -61,4 +64,5 @@ Revisar los **logs de acceso** para detectar intentos no autorizados.
 **Impacto en redes:**
 Facilita la detección de incidentes y el cumplimiento normativo.
 
-Estos principios trabajan de manera conjunta; una red segura no solo protege la información, sino que **garantiza acceso confiable, controlado y verificable**. La ausencia de uno de estos elementos puede comprometer la seguridad total del sistema.
+---
+**Estos principios trabajan de manera conjunta;** una red segura no solo protege la información, sino que **garantiza acceso confiable, controlado y verificable**. La ausencia de uno de estos elementos puede comprometer la seguridad total del sistema.
