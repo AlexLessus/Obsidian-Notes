@@ -1,0 +1,6 @@
+views:
+  - type: table
+    name: Tabla
+    filters:
+      and:
+        - file.inFolder("40-49 Resources/Aprendizaje Automatico")
