@@ -66,3 +66,6 @@ Facilita la detección de incidentes y el cumplimiento normativo.
 
 ---
 **Estos principios trabajan de manera conjunta;** una red segura no solo protege la información, sino que **garantiza acceso confiable, controlado y verificable**. La ausencia de uno de estos elementos puede comprometer la seguridad total del sistema.
+
+
+
