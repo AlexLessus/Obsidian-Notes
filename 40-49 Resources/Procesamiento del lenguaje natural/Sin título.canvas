@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"d5ec95eea8bf66d2","x":25,"y":-380,"width":70,"height":63,"color":"2","type":"text","text":"PLN"},
+		{"id":"4a57fe7955631a3b","x":-340,"y":-240,"width":400,"height":400,"type":"file","file":"40-49 Resources/Procesamiento del lenguaje natural/ProcesamientoLenguajeNatural_TIA_2025.pdf"}
+	],
+	"edges":[
+		{"id":"df032571fa5909be","fromNode":"d5ec95eea8bf66d2","fromSide":"bottom","toNode":"4a57fe7955631a3b","toSide":"top"},
+		{"id":"68083405d07e31c1","fromNode":"d5ec95eea8bf66d2","fromSide":"bottom","toNode":"4a57fe7955631a3b","toSide":"top","color":"5"}
+	]
+}

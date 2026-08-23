@@ -16,7 +16,7 @@ Técnica para diseñar sistemas inteligentes que tengan la capacidad de aprender
 - [[Machine Learning]]
 - [[Inteligencia artificial distribuida]]
 - [[Aprendizaje Supervisado]]
-- [[Aprendizaje No Supervisado]]
+- [[Aprendizaje no supervisado]]
 - [[Aprendizaje por reforzamiento]]
 - [[Deep learning]]
 - [[redes neuronales]]

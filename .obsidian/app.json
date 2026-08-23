@@ -4,5 +4,6 @@
   "alwaysUpdateLinks": true,
   "showLineNumber": false,
   "attachmentFolderPath": "40-49 Resources",
-  "spellcheck": true
+  "spellcheck": true,
+  "promptDelete": false
 }
