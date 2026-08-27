@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"d9cae01d2b9fdee2","type":"text","text":"Internet de las cosas","x":-120,"y":-320,"width":219,"height":60,"color":"4"},
+		{"id":"683136c1d8c1ad78","type":"file","file":"90-99 Archive/Images/Pasted image 20260826084550.png","x":200,"y":-320,"width":681,"height":300}
+	],
+	"edges":[
+		{"id":"2d2b69926e9e380a","fromNode":"d9cae01d2b9fdee2","fromSide":"bottom","toNode":"683136c1d8c1ad78","toSide":"top"},
+		{"id":"c50ad118ce4751d0","fromNode":"d9cae01d2b9fdee2","fromSide":"right","toNode":"683136c1d8c1ad78","toSide":"left","color":"5"}
+	]
+}

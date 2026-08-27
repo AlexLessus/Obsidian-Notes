@@ -1,4 +1,5 @@
 Tags: [[Aprendizaje Automático]] [[Vision Artificial]] [[Programación]] [[Machine Learning]]
+#ia  
 ## IA
 - ### Tareas Tipo Cognitivas
 	- Sistemas basados en conocimientos
