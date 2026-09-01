@@ -1,4 +1,4 @@
-Tags: [[Vision Artificial]] [[Conceptos]] 
+Tags: [[Vision Artificial]] [[Actividad 1. Conceptos y definiciones fundamentales.]] 
 ### 1. Fundamentos Generales y Visión
 
 - **Computación gráfica:** Campo que se encarga de la generación de imágenes sintéticas a partir de modelos matemáticos y geométricos de objetos. (El proceso inverso a la visión: _Datos $\to$ Imagen_).

@@ -1,5 +1,5 @@
 Alexis De Jesus Perez Carmona
-#MachineLearning #AI 
+#MachineLearning #AI #ia 
 ### ¿Que es un agente? (SW, IA) 
 Un agente es el programa de software o entidad que interactúa con un entorno para resolver problemas complejos tomando decisiones. En la inteligencia artificial, el agente es quien "aprende" mediante la experiencia, descubriendo qué acciones ejecutar sin necesidad de intervención humana directa,
 

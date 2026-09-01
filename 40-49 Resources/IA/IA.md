@@ -52,6 +52,10 @@ Formaron parte de las
 
 
 
+![[Pasted image 20260828091932.png|645]]
+
+![[Pasted image 20260828091945.png]]
+
 ---
 ### Actividad 1:
 **Definir lo siguiente:**

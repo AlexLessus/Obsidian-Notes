@@ -19,7 +19,7 @@ Técnica para diseñar sistemas inteligentes que tengan la capacidad de aprender
 - [[Aprendizaje no supervisado]]
 - [[Aprendizaje por reforzamiento]]
 - [[Deep learning]]
-- [[redes neuronales]]
+- [[40-49 Resources/Aprendizaje Automatico/redes neuronales]]
 - [[Procesamiento de lenguajes naturales]]
 - [[Limites del Machine Learning]]
 - [[Etica de la IA]]
