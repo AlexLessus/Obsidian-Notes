@@ -14,6 +14,17 @@ Deep Learning really shines when it comes to complex problems such as ==computer
 
 *Utilizarlo para problemas muy complejos, requiere mucho poder de procesamiento*
 
+#### CNN
+#### RNN
+#### Epochs
+#### Transformers
+#### Deep Reinforcement Learning
+#### Long short Term memory network
+#### Autoencoders
+#### GPT
+#### Bert
+
+
 
 El aprendizaje profundo es un subconjunto del [[Machine Learning]] impulsado por [[redes neuronales]] multicapa cuyo ==diseño está inspirado en la estructura del cerebro humano.== Los modelos de aprendizaje profundo impulsan la mayoría de la inteligencia artificial (IA) de última generación en la actualidad, desde la visión artificial y la IA generativa hasta los automóviles autónomos y la robótica.
 
@@ -56,7 +67,7 @@ Parten de una sola neurona
 	- Puede ser 1 o -1
 	- Permite llegar a la activacion o el valor que estamos esperando
 
-En una [[redes neuronales]] se habla de muchos perceptrones
+En una [[40-49 Resources/Aprendizaje Automatico/redes neuronales]] se habla de muchos perceptrones
 
 Época: cada uno de los ciclos de entrenamiento
 

@@ -1,5 +1,5 @@
 Tags: [[Aprendizaje Automático]] [[IA]] 
-#MachineLearning #AI
+#MachineLearning #AI #ia 
 
 ## Machine learning
 ==**A set of tools for making inferences and predictions from data**==
