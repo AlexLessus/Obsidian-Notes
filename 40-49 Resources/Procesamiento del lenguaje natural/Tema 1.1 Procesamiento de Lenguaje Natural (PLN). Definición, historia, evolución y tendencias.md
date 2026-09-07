@@ -24,8 +24,10 @@ El desarrollo histórico de esta disciplina se ha consolidado en cuatro grandes 
     - Surgieron los primeros sistemas de respuesta a preguntas basados en bases de datos lógicas estructuradas, como **LUNAR (1972)**, para responder preguntas sobre la geología lunar.
 - **La Era Estadística y Probabilística (Años 1980s - 2000s):**
     - Las limitaciones del diseño de reglas manuales llevaron a un cambio paradigmático hacia el modelado probabilístico de secuencias. Fred Jelinek y su equipo en **IBM Watson** acuñaron formalmente el término **"modelo de lenguaje" (Language Model)** en **1975** al aplicar modelos de **n-gramas** para calcular las probabilidades de secuencias de palabras en reconocimiento de voz.
+    - 1990, 
     - En **1988**, Deerwester introdujo el **Análisis Semántico Latente (LSA)**, sentando las bases primitivas de los vectores de palabras o _embeddings_ al usar la descomposición de valores singulares para representar el significado semántico.
     - A finales de los 90, se aplicaron ampliamente clasificadores discriminativos como la **Regresión Logística** (conocida entonces como modelos de _máxima entropía_ o _MaxEnt_) para etiquetado gramatical (POS), análisis sintáctico y clasificación de texto.
+    - 1990, corpus (grandes cantidades de datos), modelos, probabilidad y aprendizaje automatico
 - **La Era del Aprendizaje Profundo y Modelos de Secuencia (Años 2010s):**
     - A finales de la década de 2000, los trabajos de Collobert y Weston (2008, 2011) impulsaron el uso de redes neuronales profundas para realizar tareas de PLN **"desde cero" (****almost from scratch****)**, prescindiendo de características lingüísticas diseñadas a mano.
     - A partir de **2013**, la popularización de vectores densos preentrenados como **word2vec (Mikolov)** y **GloVe (Pennington)** revolucionó el campo al representar palabras en espacios vectoriales continuos donde la cercanía geométrica reflejaba similitud semántica.

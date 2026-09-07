@@ -1,3 +1,4 @@
+#PLN 
 ### 1.2.1. Teoría Lingüística Básica: fonología, morfología, sintaxis, semántica, pragmática, diferencias entre lenguaje escrito y hablado. 
 Para que un sistema computacional procese el lenguaje natural, debe ser capaz de modelar los diferentes niveles de organización o "capas" de la lingüística:
 
