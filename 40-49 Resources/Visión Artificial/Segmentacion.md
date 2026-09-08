@@ -1,1 +1,0 @@
-Completar el ejercicio de segmentacion de monedas

@@ -1,3 +1,4 @@
+#coffee
 ![[Pasted image 20260204225221.png]]
 
 ![[Pasted image 20260204230335.png]]

@@ -1,4 +1,4 @@
-#ia 
+#MachineLearning #AI 
 
 #### Self Organizing maps
 

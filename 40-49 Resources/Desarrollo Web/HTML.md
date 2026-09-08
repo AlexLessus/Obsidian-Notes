@@ -3,6 +3,7 @@ materia: Desarrollo Web
 fecha: 2026-02-02
 tipo: nota_clase
 ---
+#html 
 # Estructura básica
 ``` html
 <!DOCTYPE HTML>

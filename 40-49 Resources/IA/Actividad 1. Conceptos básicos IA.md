@@ -1,5 +1,5 @@
 Alexis de Jesus Perez Carmona
-
+#AI
 ## Definición de Inteligencia en general
 ### NotebookLM
 - La **inteligencia** se define formalmente como la **capacidad de encontrar una respuesta a los problemas que plantean situaciones nuevas**. En el caso de la experiencia sensible, esta facultad realiza una reestructuración de sus materiales a fin de organizarlos de otra manera; en la vida intelectual, hace frente a los problemas que suscitan cuestiones formuladas lingüísticamente como teorías, conjeturas o interrogantes. En todos los casos, el ejercicio de la inteligencia se asocia con la **novedad**, contrastando con conductas que se sustentan únicamente en la adquisición de hábitos o en la asociación con experiencias pasadas.

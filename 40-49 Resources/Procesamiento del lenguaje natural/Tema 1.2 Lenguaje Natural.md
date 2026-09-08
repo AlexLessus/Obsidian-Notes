@@ -1,3 +1,6 @@
+#PLN 
+
+> The common misconception that language use has primarily to do with words and what they mean. It doesn't. It has primarily to do with people and what they mean. 
 ### 1.2.1. Teoría Lingüística Básica: fonología, morfología, sintaxis, semántica, pragmática, diferencias entre lenguaje escrito y hablado. 
 Para que un sistema computacional procese el lenguaje natural, debe ser capaz de modelar los diferentes niveles de organización o "capas" de la lingüística:
 
@@ -39,3 +42,6 @@ En este nivel, se estudia cómo organizar y descomponer las oraciones para que l
 
 - **Ambigüedad Sintáctica:**
     - Es uno de los grandes retos de la programación en PLN. Una misma secuencia de palabras puede producir múltiples árboles de derivación válidos. Un ejemplo clásico es la ambigüedad de adjunción de frases preposicionales (como en _"Disparé a un elefante en mis pijamas"_, donde no queda claro por pura estructura si el elefante vestía el pijama o el tirador lo hacía). Para resolver esto en la práctica, se utilizan parsers probabilísticos y algoritmos de programación dinámica como el **CKY**.
+
+#### Complejidad semántica
+El grado de dificultad para entender un significado, cada oración puede contener muchos datos 

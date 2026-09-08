@@ -1,3 +1,4 @@
+#linux #AI 
 ## Requerimientos de Software y Herramientas
 
 ### Sistema Operativo y Controladores

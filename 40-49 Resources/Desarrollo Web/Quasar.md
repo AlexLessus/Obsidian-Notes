@@ -1,4 +1,4 @@
-
+#web 
 **El paradigma multiplataforma ("Escribe una vez, despliega en todas partes")** Este es el atractivo principal de Quasar. Debes explicar cómo una única base de código fuente escrita en Vue.js puede compilarse simultáneamente para múltiples plataformas. Debes estar familiarizado con los modos de compilación que soporta:
 
 - Sitios web tradicionales (SPAs).

@@ -1,3 +1,4 @@
+#AI #vision_artificial 
 Una herramienta de utilidad para automatizar el cuidado ergonómico durante largas sesiones de trabajo en la terminal.
 - **El objetivo:** Crear un script de fondo que supervise tu postura y nivel de atención.
 - **Cómo hacerlo:** Combinar _Pose Landmarker_ (para medir el ángulo de los hombros y el cuello) y _Face Mesh_ (para calcular el ratio de apertura de los ojos o la dirección de la mirada).

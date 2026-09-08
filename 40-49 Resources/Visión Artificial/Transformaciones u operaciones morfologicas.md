@@ -1,3 +1,4 @@
+#python 
 # Erosion y dilatación
 Para detectar una persona u objeto suelen quedar huecos, entonces hay que rellenarlos para detectarlos bien.
 

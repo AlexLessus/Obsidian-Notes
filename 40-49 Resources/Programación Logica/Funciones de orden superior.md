@@ -1,4 +1,4 @@
-tags: [[Programación]] [[Programación Logica]]
+tags: [[Programación]] [[Programación Logica]] #ProgramaciónLogica 
 
 *Una **función de orden superior** es aquella que toma otras funciones como parámetros o devuelve una función como resultado.*
 ### 1. Composición y Manipulación de Funciones

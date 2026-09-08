@@ -1,4 +1,5 @@
 Alexis De Jesus Perez Carmona  22290827
+#redes 
 
 1. Qué es la nube, qué características tiene y cómo funciona?
 La **computación en la nube (Cloud Computing)** es el modelo que permite el acceso bajo demanda, y a través de internet, a un conjunto compartido de recursos de computación configurables (redes, servidores, almacenamiento, aplicaciones y servicios) con un mínimo esfuerzo de gestión o interacción con el proveedor.

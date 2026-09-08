@@ -1,4 +1,4 @@
-Tags [[Redes]]
+Tags [[Redes]] #redes 
 ### **Métricas clave de desempeño de red**
 Las siguientes métricas son fundamentales para analizar el comportamiento real de una red.
 

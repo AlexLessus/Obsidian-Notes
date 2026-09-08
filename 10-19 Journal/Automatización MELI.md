@@ -1,3 +1,4 @@
+#praxintesis 
 ### La decisión arquitectónica crítica
 
 Implementar este flujo de 2 pasos (Buscar ID por código de barras -> Consultar ID para sacar el precio del ganador) es súper rápido, estable y 100% nativo. **Pero tiene una limitante:** Solo funciona si los productos de la empresa están dentro del sistema de "Catálogo" de Mercado Libre.
