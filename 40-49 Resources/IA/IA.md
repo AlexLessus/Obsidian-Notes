@@ -1,6 +1,19 @@
 Tags: [[Aprendizaje Automático]] [[Vision Artificial]] [[Programación]] [[Machine Learning]]
 #AI   
 ## IA
+[[Conceptos basicos]]
+#### Tipos de IA
+- **Sistemas que piensan como humanos.**
+	- Estos sistemas tratan de emular el pensamiento humano; por ejemplo las redes neuronales artificiales. La automatización de actividades que vinculamos con procesos de pensamiento humano, actividades como la toma de decisiones, resolución de problemas y aprendizaje. 
+- **Sistemas que actúan como humanos.**
+	- Estos sistemas tratan de actuar como humanos; es decir, imitan el comportamiento humano; por ejemplo la robótica. El estudio de cómo lograr que los computadores realicen tareas que, por el momento, los humanos hacen mejor. 
+- **Sistemas que piensan racionalmente.**
+	- Es decir, con lógica (idealmente), tratan de imitar el pensamiento racional del ser humano; por ejemplo los sistemas expertos. El estudio de los cálculos que hacen posible percibir, razonar y actuar. 
+
+- **Sistemas que actúan racionalmente.**
+	- Tratan de emular de forma racional el comportamiento humano; por ejemplo los agentes inteligentes. Está relacionado con conductas inteligentes en artefactos.
+
+
 - ### Tareas Tipo Cognitivas
 	- Sistemas basados en conocimientos
 		- SBC
@@ -35,6 +48,27 @@ Crear maquinas que puedan percibir su entorno, aprender procesando información 
 #### **Origen y evolución de la Inteligencia Artificial** 
 El concepto de Inteligencia Artificial surge formalmente en la década de 1950, cuando el científico John McCarthy acuñó el término en 1956 durante la Conferencia de Dartmouth. En sus inicios, la IA se centró en sistemas basados en reglas y lógica matemática, conocidos como IA simbólica, que intentaban imitar el razonamiento humano mediante reglas explícitas del tipo “si-entonces”
 
+
+## Inteligencia artificial convencional
+%%Se generaliza para pasar a algo especifico%%
+**Se conoce también como IA simbólico-deductiva.** 
+
+Está basada en el análisis formal y estadístico del comportamiento humano ante diferentes problemas: 
+- **[Razonamiento basado en casos]:** Ayuda a tomar decisiones mientras se resuelven ciertos problemas concretos y, aparte de que son muy importantes, requieren de un buen funcionamiento. 
+- **[[Sistemas expertos]]:** Infieren una solución a través del conocimiento previo del contexto en que se aplica y ocupa de ciertas reglas o relaciones. 
+- **[[Redes bayesianas]]:** Propone soluciones mediante inferencia probabilística. 
+- **Inteligencia artificial basada en comportamientos:** Esta inteligencia contiene autonomía y puede auto-regularse y controlarse para mejorar. 
+- **Smart process management:** Facilita la toma de decisiones complejas, proponiendo una solución a un determinado problema al igual que lo haría un especialista en dicha actividad.
+
+## Inteligencia computacional
+%%Parte de partes individuales para pasar a algo general%%
+La Inteligencia Computacional (también conocida como IA subsimbólicainductiva) implica desarrollo o aprendizaje interactivo (por ejemplo, modificaciones interactivas de los parámetros en sistemas de conexiones). 
+
+El aprendizaje se realiza basándose en datos empíricos. Dentro de la Inteligencia Computacional podemos encontrar técnicas como las [[Redes Neuronales]], Computación Evolutiva, Swarm Intelligence, Sistemas Inmunes Artificiales o [Sistemas difusos]. 
+
+También se relaciona con técnicas como los Fractales, Teoría del Caos, Wavelets, Autómata celular, etc. La Inteligencia Computacional combina elementos de aprendizaje, adaptación, evolución y Lógica difusa para crear programas que son, en cierta manera, inteligentes. 
+
+La investigación en Inteligencia Computacional no rechaza los métodos estadísticos, pero muy a menudo aporta una vista complementaria.
 ## Areas de la IA
 Formaron parte de las
 - Matemática

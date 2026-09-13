@@ -23,6 +23,9 @@
     4. **Hugging Face Hub:** Repositorio en la nube que alberga decenas de miles de modelos, conjuntos de datos y métricas listos para producción.
     5. **Accelerate:** Permite adaptar bucles de entrenamiento en PyTorch para correrlos sin esfuerzo en múltiples GPUs o TPUs.
 
+
+
+
 ### **4. Gensim**
 - **Filosofía y Enfoque:** Es la biblioteca especializada por excelencia para el **Modelado de Temas (Topic Modeling) y la similitud de documentos**. Está diseñada para procesar corpus de texto gigantescos de forma secuencial (por _streaming_) sin necesidad de cargarlos por completo en la memoria RAM.
 - **Funcionalidades:** Es ampliamente utilizada para:

@@ -1,5 +1,4 @@
 **1. Reconocimiento Automático de Voz (ASR - Automatic Speech Recognition)**
-
 Consiste en mapear una señal acústica continua a una secuencia discreta de texto (grafemas o subpalabras).
 
 - **Procesamiento de Características:** Las ondas sonoras se muestrean, cuantizan y transforman mediante análisis espectral en representaciones visuales de energía en función del tiempo, típicamente **espectrogramas log-Mel** calculados en ventanas de unos 10 ms.
