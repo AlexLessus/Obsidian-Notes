@@ -1,7 +1,10 @@
 
-# Compendio Técnico sobre Expresiones Regulares: De la Sintaxis Básica al Procesamiento del Lenguaje Natural (PLN)
+
+## Definiciones
+En su jerarquia de gramaticas, Chomsky caracteriza los lenguajes regulares como aquiellos generados por las gramaticas mas restrictivas. 
 
 ## 1. Fundamentos y Evolución de las Expresiones Regulares (Regex)
+Una expresion regular es una notación formal que permite describir un conjunto de cadenas mediante patrones construidos con caracteres y operadores.
 
 En el ecosistema de la ingeniería de software moderna, las expresiones regulares (o _regex_) trascienden la mera búsqueda de cadenas de texto para consolidarse como una infraestructura lógica crítica. Actúan como patrones algebraicos que permiten describir la geometría de los datos no estructurados, permitiendo una automatización determinista en el tratamiento de la información que resulta vital para la estabilidad de sistemas distribuidos y flujos de datos masivos.
 
@@ -92,3 +95,91 @@ Para garantizar la seguridad y el rendimiento de los patrones en entornos profes
 4. **Validación No Destructiva:** Antes de un `sed -i`, verifique con `grep --color` para visualizar exactamente qué caracteres serán modificados.
 
 Las expresiones regulares, décadas después de Thompson y Kleene, siguen siendo insustituibles. Su capacidad para operar en la base misma de la información —el texto— las convierte en una herramienta obligatoria tanto para la administración forense de sistemas como para la ingeniería de datos en la era de la Inteligencia Artificial. El dominio de las regex no es solo una habilidad de codificación; es una competencia de arquitectura de datos.
+
+## Simbolos en [[python]]
+#python 
+### **1. Metacaracteres y Comodines Básicos**
+
+|Símbolo|Descripción|Ejemplo en Python|Coincidencia de ejemplo|
+|:--|:--|:--|:--|
+|`.`|Coincide con **cualquier carácter** excepto un salto de línea (`\n`).|`r"c.sa"`|`"casa"`, `"cosa"`, `"c1sa"`|
+|`\`|**Carácter de escape**: quita el significado especial a un metacarácter o activa una secuencia especial.|`r"archivo\.txt"`|`"archivo.txt"` (evalúa el punto literal)|
+|`\|`|**Alternación (OR)**: coincide con el patrón a la izquierda o a la derecha.|`r"gato\|
+
+---
+
+### **2. Clases y Secuencias Especiales de Caracteres**
+
+|Símbolo|Descripción|Equivalencia / Significado|Ejemplo coincidente|
+|:--|:--|:--|:--|
+|`[...]`|**Clase de caracteres**: coincide con un único carácter de los indicados.|`r"[aeiou]"`|Cualquier vocal minúscula|
+|`[^...]`|**Clase negada**: coincide con un único carácter que **NO** esté en la lista.|`r"[^0-9]"`|Cualquier carácter no numérico|
+|`[a-z]`|**Rango**: coincide con cualquier carácter entre los límites indicados.|`r"[A-Z]"`|Cualquier letra mayúscula|
+|`\d` / `\D`|**Dígito / No dígito**.|`` / `[^0-9]`|`"123"` / `"abc"`|
+|`\w` / `\W`|**Carácter de palabra / No palabra** (letras, dígitos y `_`).|`[a-zA-Z0-9_]` / `[^a-zA-Z0-9_]`|`"hello_1"` / `"!@#"`|
+|`\s` / `\S`|**Espacio en blanco / No espacio** (espacios, `\t`, `\n`, `\r`).|`[ \t\n\r\f\v]` / `[^ \t\n\r\f\v]`|Espacios y tabulaciones / texto|
+
+---
+
+### **3. Cuantificadores (Repetición)**
+
+|Símbolo|Frecuencia|Modo|Ejemplo en Python|
+|:--|:--|:--|:--|
+|`*`|**0 o más** repeticiones.|Codicioso (_greedy_)|`r"a*"` \(\rightarrow\) `""`, `"a"`, `"aaa"`|
+|`+`|**1 o más** repeticiones.|Codicioso (_greedy_)|`r"b+"` \(\rightarrow\) `"b"`, `"bbb"`|
+|`?`|**0 o 1** repetición (opcional).|Codicioso (_greedy_)|`r"colou?r"` \(\rightarrow\) `"color"`, `"colour"`|
+|`{n}`|Exactamente **n** repeticiones.|Exacto|`r"\d{4}"` \(\rightarrow\) `"2026"`|
+|`{n,m}`|Entre **n** y **m** repeticiones.|Codicioso (_greedy_)|`r"\d{2,4}"` \(\rightarrow\) `"12"`, `"1234"`|
+|`{n,}`|Al menos **n** repeticiones.|Codicioso (_greedy_)|`r"\d{2,}"` \(\rightarrow\) dos o más dígitos|
+|`*?`, `+?`, `??`|**Cuantificadores perezosos (_lazy_)**: buscan la menor cantidad de caracteres.|Perezoso (_non-greedy_)|`r"<.*?>"` \(\rightarrow\) captura `<b>` en `<b>Hola</b>`|
+
+---
+
+### **4. Anclas y Límites de Posición (Aserciones de Ancho Cero)**
+
+| Símbolo | Descripción                                         | Ejemplo en Python | Comportamiento                                       |
+| :------ | :-------------------------------------------------- | :---------------- | :--------------------------------------------------- |
+| `^`     | **Inicio de línea/cadena**.                         | `r"^Inicio"`      | Valida si el texto empieza por `"Inicio"`            |
+| `$`     | **Fin de línea/cadena**.                            | `r"Fin$"`         | Valida si el texto termina en `"Fin"`                |
+| `\A`    | **Inicio absoluto** de la cadena (ignora `re.M`).   | `r"\ATexto"`      | Coincide solo al principio de todo el string         |
+| `\Z`    | **Fin absoluto** de la cadena.                      | `r"Texto\Z"`      | Coincide solo al final de todo el string             |
+| `\b`    | **Límite de palabra** (frontera entre `\w` y `\W`). | `r"\bgato\b"`     | Coincide con `"gato"`, ignora `"gatos"` o `"gatuno"` |
+| `\B`    | **No límite de palabra**.                           | `r"\Bsol\B"`      | Coincide dentro de palabras como `"parasol"`         |
+
+---
+
+### **5. Agrupación, Captura y Referencias**
+
+|Sintaxis|Descripción|Uso práctico en Python|
+|:--|:--|:--|
+|`(...)`|**Grupo de captura**: agrupa subexpresiones y las guarda en memoria por índice (`1`, `2`...).|`m = re.search(r"(\w+)-(\d+)", s)` \(\rightarrow\) `m.group(1)`|
+|`(?:...)`|**Grupo de no captura**: agrupa sin guardar en memoria para optimizar.|`r"(?:http\|
+|`(?P<nombre>...)`|**Grupo de captura con nombre** exclusivo de Python / PCRE.|`m.group('nombre')` o `m.groupdict()`|
+|`\1`, `\2`|**Referencia anterior (_backreference_)** por número dentro de la RegEx.|`r"\b(\w+)\s+\1\b"` (detecta palabras duplicadas)|
+|`(?P=nombre)`|**Referencia anterior por nombre**.|`r"\b(?P<word>\w+)\s+(?P=word)\b"`|
+
+---
+
+### **6. Aserciones de Inspección (_Lookarounds_)**
+
+|Sintaxis|Nombre|Descripción|
+|:--|:--|:--|
+|`(?=...)`|**Lookahead positivo**|Comprueba si el patrón siguiente coincide **sin consumir texto**.|
+|`(?!...)`|**Lookahead negativo**|Comprueba si el patrón siguiente **NO** coincide.|
+|`(?<=...)`|**Lookbehind positivo**|Comprueba si el patrón anterior coincide sin incluirlo en el resultado.|
+|`(?<!...)`|**Lookbehind negativo**|Comprueba si el patrón anterior **NO** coincide.|
+
+---
+
+### **7. Banderas de Compilación (`flags` en `re.compile`)**
+
+|Bandera (Nombre corto / Largo)|Efecto principal|
+|:--|:--|
+|`re.I` / `re.IGNORECASE`|Iguala mayúsculas y minúsculas al buscar.|
+|`re.M` / `re.MULTILINE`|Permite que `^` y `$` coincidan en cada salto de línea de un texto.|
+|`re.S` / `re.DOTALL`|Hace que el comodín punto `.` coincida también con saltos de línea `\n`.|
+|`re.X` / `re.VERBOSE`|Permite escribir expresiones multilínea, ignorar espacios libres e incluir comentarios con `#`.|
+|`re.A` / `re.ASCII`|Restringe las clases `\w`, `\d`, `\s` estrictamente al conjunto ASCII en cadenas Unicode.|
+
+💡 **Nota clave para Python:** Para evitar la _"plaga de la barra invertida"_ (_backslash plague_), se recomienda definir siempre las expresiones regulares utilizando **cadenas crudas** (anteponiendo la letra `r` antes de las comillas, como `r"\d+\s+\w+"`). De lo contrario, el intérprete de Python procesará las barras invertidas antes de entregárselas al módulo `re`.
+
