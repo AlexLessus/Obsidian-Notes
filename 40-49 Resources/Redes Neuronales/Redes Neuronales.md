@@ -119,6 +119,8 @@ Es importante destacar que esta característica solo se aprecia cuando se implem
 #### Fácil inserción en la tecnología existente: 
 es relativamente sencillo obtener chips especializados para redes neuronales que mejoran su capacidad en ciertas tareas. Ello facilita la integración modular en los sistemas existentes.
 
+
+
 ## 
 
 #### Self Organizing maps
