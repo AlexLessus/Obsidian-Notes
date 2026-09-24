@@ -1,5 +1,5 @@
 Alexis de Jesus Perez Carmona
-
+#AI
 ## Definición de Inteligencia en general
 ### NotebookLM
 - La **inteligencia** se define formalmente como la **capacidad de encontrar una respuesta a los problemas que plantean situaciones nuevas**. En el caso de la experiencia sensible, esta facultad realiza una reestructuración de sus materiales a fin de organizarlos de otra manera; en la vida intelectual, hace frente a los problemas que suscitan cuestiones formuladas lingüísticamente como teorías, conjeturas o interrogantes. En todos los casos, el ejercicio de la inteligencia se asocia con la **novedad**, contrastando con conductas que se sustentan únicamente en la adquisición de hábitos o en la asociación con experiencias pasadas.
@@ -92,7 +92,7 @@ La inteligencia artificial se clasifica bajo distintos criterios teóricos y arq
 - **Motor de Inferencia:** Mecanismo lógico de un sistema basado en conocimiento que asocia, combina y procesa las reglas y hechos almacenados en la base de conocimientos para responder preguntas, derivar nuevas conclusiones o tomar decisiones ante un problema.
 - **Sesgo Algorítmico (Bias):** Distorsiones e injusticias lógicas o sociales que hereda un modelo de IA debido a que sus datos de entrenamiento reflejan prejuicios de los seres humanos que diseñaron o recopilaron la información.
 - **Explicabilidad (XAI):** Capacidad de un sistema inteligente de comunicar eficazmente a una persona las razones estructuradas o lógicas que fundamentan sus respuestas o decisiones automáticas, esencial para establecer confianza y un uso ético.
-- **Singularidad Tecnológica:** Concepto que describe un punto futuro de la evolución en el cual el crecimiento tecnológico exponencial dará lugar a la fusión definitiva entre el ser humano y las máquinas, transformando irreversiblemente la vida humana.
+- **[[Singularidad Tecnológica]]:** Concepto que describe un punto futuro de la evolución en el cual el crecimiento tecnológico exponencial dará lugar a la fusión definitiva entre el ser humano y las máquinas, transformando irreversiblemente la vida humana.
 ### Gemini
 - **Agente Inteligente:** Entidad capaz de percibir su entorno mediante sensores y actuar sobre él a través de actuadores para alcanzar una meta.
 - **Algoritmo:** Secuencia finita y ordenada de instrucciones lógicas para procesar datos o resolver un problema.    

@@ -1,3 +1,5 @@
+#coffee 
+
 | **Si el café sabe...**         | **Problema común** | **Solución sugerida**                   |
 | ------------------------------ | ------------------ | --------------------------------------- |
 | **Agrio, salado o muy ácido**  | Sub-extracción     | Muele más fino o usa agua más caliente. |

@@ -1,4 +1,4 @@
-Tags: [[Desarrollo Web]]
+Tags: [[Desarrollo Web]] #html
 ``` html
 <html>
 	<head>

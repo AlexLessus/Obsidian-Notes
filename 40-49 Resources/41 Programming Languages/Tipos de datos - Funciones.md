@@ -1,3 +1,4 @@
+#python 
 # Tipos de datos estructurados
 ## Cadenas
 Los elementos están delimitados por comillas o apostrofes ”cadena” ’cadena’

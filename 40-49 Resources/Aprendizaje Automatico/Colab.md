@@ -1,3 +1,4 @@
+#python #AI #computerVision #PLN 
 Instalar librerias en colab
 ``` python
 !pip install cowsay

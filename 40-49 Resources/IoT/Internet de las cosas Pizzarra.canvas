@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"d9cae01d2b9fdee2","type":"text","text":"Internet de las cosas","x":-120,"y":-320,"width":219,"height":60,"color":"4"},
+		{"id":"d9cae01d2b9fdee2","type":"text","text":"Internet de las cosas #IoT ","x":-120,"y":-320,"width":219,"height":60,"color":"4"},
 		{"id":"683136c1d8c1ad78","type":"file","file":"90-99 Archive/Images/Pasted image 20260826084550.png","x":200,"y":-320,"width":681,"height":300}
 	],
 	"edges":[
