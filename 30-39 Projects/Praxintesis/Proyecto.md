@@ -4,8 +4,7 @@
 
 **Versión:** 1.0 (MVP)
 **Fecha:** Septiembre 2026
-**Ubicación de Operaciones:** Ciudad Guzmán, Jalisco, México.
-**Audiencia:** Equipo de Ingeniería, Inversionistas Semilla, Dirección de Operaciones (Empacadoras y Recicladoras).
+
 
 ## 1. RESUMEN EJECUTIVO Y MODELO DE NEGOCIO MVP
 ### 1.1 Propuesta de Valor
