@@ -4,5 +4,7 @@
   "better-export-pdf",
   "obsidian-style-settings",
   "obsidian-excalidraw-plugin",
-  "google-calendar"
+  "google-calendar",
+  "excalidraw-extras",
+  "jupyter-viewer"
 ]
