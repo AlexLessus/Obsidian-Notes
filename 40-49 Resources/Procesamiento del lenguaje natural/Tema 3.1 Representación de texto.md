@@ -2,31 +2,76 @@
 
 La representación del texto es el puente que transforma secuencias de caracteres en vectores numéricos legibles por algoritmos de aprendizaje automático e inteligencia artificial.
 
-A continuación, se detallan los **Modelos Básicos de Representación (Tema 3.1)**:
+
+| Modelo               | Que representa?                                 | Idea principal                                                              |
+| -------------------- | ----------------------------------------------- | --------------------------------------------------------------------------- |
+| N-gramas             | Secuencias de elementos consecutivos            | Observar grupos de uno, dos, tres o mas tokens                              |
+| Cadenas de Markov    | Transiciones probablilisticas entre estados     | Predecir lo siguiente a partir de un contexto limitado                      |
+| Vectores de palabras | Palabras mediante listas de números             | Convertir palabras en objetos matemáticos                                   |
+| TF-IDF               | Importacia de las palabras dentro de documentos | Destacar términos frecuentes en un documento y poco comunes en el conjunto. |
+
 
 ---
 
 ### **1. N-gramas**
 Orden local
-
+Es una secuencia de n elementos consecutivos de un texto. Estos elementos pueden ser palabras, caracteres u otros tokens.
 
 - **¿Qué son?:** Un **N-grama** es una secuencia continua de \(n\) palabras o tokens extraídos de un texto.
     - \(1\)-grama (**unigrama**): palabras individuales (ej. _"curso"_). Poco contexto, vocabulario simple
     - \(2\)-grama (**bigrama**): secuencias de dos palabras (ej. _"curso excelente"_). Expresiones frecuentes, mas dimensiones
     - \(3\)-grama (**trigrama**): secuencias de tres palabras (ej. _"el curso excelente"_). contexto mas especifico, mayor dispersión, requiere mas datos.
 - **Como Modelo de Lenguaje:** Se utilizan para calcular la probabilidad de que una palabra aparezca dada una secuencia previa de palabras (\(P(w|h)\)). Se entrenan contando frecuencias en un corpus y calculando la Estimación de Máxima Verosimilitud (MLE).
-- **Limitación:** Asumen una memoria local muy corta. Su número de parámetros crece de forma exponencial al aumentar el orden de \(n\), y sufren de escasez de datos (_sparsity_) ante palabras o combinaciones no vistas en el texto de entrenamiento.
+- **Limitación:** Asumen una memoria local muy corta. Su número de parámetros crece de forma exponencial al aumentar el orden de \(n\), y sufren de escasez de datos (_sparsity_) ante palabras o combinaciones no vistas en el texto de entrenamiento. Muchas secuencias posibles no aparecen en el corpus
+
+``` python
+from nltk import ngrams
+
+texto = input("Escribe una cancion: ")
+n = int(input("Indica el valor de n: "))
+
+tokens = texto.lower().split()
+
+resultado = list(ngrams(tokens, n))
+
+print(f"\n{n}-gramas encontrados: ")
+
+for ng in resultado:
+	print(ng)
+```
 
 Evaluan contexto
 
----
+**Estimación de Máxima Verosimilitud (MLE):** Calcula la probabilidad del N-grama normalizando la frecuencia observada en el corpus: $$P_{MLE}(w_n \mid w_{n-N+1:n-1}) = \frac{C(w_{n-N+1:n-1} \, w_n)}{C(w_{n-N+1:n-1})} \quad$$
+$W_i$ La palabra que queremos predecir.
+$w_i-1$ la palabra anterior
+
+ ---
 ### **2. Cadenas de Markov (Markov Chains)**
-Predecir deesde el estado anterior
+Predecir desde el estado anterior
+
+Una cadena de Markov modela cómo un sistema pasa de un estado a otro.
+
+La probabilidad del siguiente estado depende del estado actual
+
+
+1. Estados
+	Son las situaciones posibles del sistema
+	En PLN podemos usar palabras como estados
+2. Transiciones
+	Son los pasos de un estado a otro.
+	Ejemplo yo -> estudio
+3. Probabilidades
+	Cada trancición tiene una probabilidad.
+	Ejemplo: $P(estudio|yo) = 0.75$
 
 La propiedad de Markov aproxima el futuro usando un historial limitado.
 
 - **¿Qué son?:** Un modelo estocástico o probabilístico en el que la probabilidad de transición al siguiente estado (la siguiente palabra) depende **únicamente del estado actual o de un número finito de estados anteriores** (propiedad de Markov).
 - **Relación con los N-gramas:** Los modelos de N-gramas son esencialmente **cadenas de Markov de orden \(N-1\)**. En lugar de considerar todo el historial del texto, la cadena de Markov simplifica el cálculo asumiendo que la siguiente palabra solo depende de las \(n-1\) palabras inmediatamente anteriores.
+
+#### Propiedad de markov
+
 
 ---
 

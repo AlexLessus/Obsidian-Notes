@@ -1,4 +1,4 @@
-Tags: [[Aprendizaje Automático]] [[IA]] [[Actividad]]
+Tags: [[Aprendizaje Automático]] [[IA]] [[Actividad 7 perceptron clasificación de numeros]]
 # Comparación de Respuestas de IAs (ChatGPT, Claude y Gemini)
 
 ## Resumen General
