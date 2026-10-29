@@ -10,3 +10,8 @@
 
 /.obsidian/themes/AnuPpuccin
 /.obsidian/themes/AnuPpuccin
+
+
+
+# Ignore Smart Environment folder
+.smart-env

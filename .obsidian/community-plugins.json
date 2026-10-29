@@ -1,10 +1,10 @@
 [
-  "homepage",
   "obsidian-git",
   "better-export-pdf",
   "obsidian-style-settings",
   "obsidian-excalidraw-plugin",
   "google-calendar",
   "excalidraw-extras",
-  "jupyter-viewer"
+  "jupyter-viewer",
+  "smart-connections"
 ]

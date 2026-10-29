@@ -5,26 +5,18 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "tag:#Baby  ",
-      "color": {
-        "a": 1,
-        "rgb": 2117789
-      }
-    }
-  ],
+  "collapse-color-groups": false,
+  "colorGroups": [],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.14417879417879,
   "lineSizeMultiplier": 2.30550935550936,
-  "collapse-forces": false,
-  "centerStrength": 0.526041666666667,
-  "repelStrength": 9.89583333333333,
-  "linkStrength": 0.848958333333333,
+  "collapse-forces": true,
+  "centerStrength": 0.62863003346648,
+  "repelStrength": 10.4807148512612,
+  "linkStrength": 0.600993198747706,
   "linkDistance": 228,
-  "scale": 0.26966475581504196,
+  "scale": 0.08883383746139029,
   "close": true
 }

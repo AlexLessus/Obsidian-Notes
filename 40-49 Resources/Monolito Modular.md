@@ -2,7 +2,7 @@
 El **monolito modular** es una arquitectura de software que estructura una aplicación en **módulos independientes** con límites bien definidos, pero que se **despliega como una única unidad**. Combina la simplicidad operativa de los monolitos tradicionales con la organización y mantenibilidad de los microservicios, manteniendo todos los componentes en un **único proceso de ejecución** y base de código.
 
 ### Características y Ventajas Principales
-- **Despliegue Simplificado**: A diferencia de los microservicios, no requiere orquestadores complejos ni despliegues distribuidos, facilitando la operación en infraestructura tradicional.
+- **Despliegue Simplificado**: A diferencia de los microservicios, no requiere orquestadores complejos ni despliegues distribuidos, facilitando la operación en infraestructura tradicional.[[SLA]]
 - **Alto Rendimiento**: La comunicación entre módulos ocurre **in-process**, eliminando la latencia de red y la sobrecarga de serialización típica de los sistemas distribuidos.
 - **Mantenibilidad y Escalabilidad**: Permite escalar módulos específicos internamente y facilita la transición futura a microservicios si el sistema crece significativamente.
 - **Gestión de Transacciones**: Al compartir la misma base de datos y proceso, la gestión de transacciones ACID es más sencilla que en arquitecturas distribuidas.

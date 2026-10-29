@@ -1,4 +1,5 @@
-Alexis De Jesus Perez Carmona
+#RedesNeuronales
+
 ### 1. Elementos Básicos de la Neurona Artificial
 - **Neurona Artificial (Nodo)**: Unidad computacional fundamental inspirada en las neuronas biológicas. Recibe señales numéricas, las procesa mediante transformaciones matemáticas y genera una respuesta o estado de activación hacia otras unidades.
 - **Entradas(**$x_i$**)**: Valores o datos numéricos (binarios o continuos) introducidos en la neurona. Provienen del entorno externo o de las salidas de neuronas en capas anteriores.
