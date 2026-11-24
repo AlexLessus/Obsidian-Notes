@@ -1,4 +1,4 @@
-Tags: [[Pandas]] [[Python]]
+Tags: [[Pandas]] [[Python]] [[Framework]]
 ## Importing CSV Files
 **CSV** (**C**omma-**S**eparated **V**alues) files are everywhere. They’re simple, lightweight, and probably the first data format you’ll encounter in the wild as a beginner.
 

@@ -110,14 +110,14 @@ Las expresiones regulares, décadas después de Thompson y Kleene, siguen siendo
 
 ### **2. Clases y Secuencias Especiales de Caracteres**
 
-|Símbolo|Descripción|Equivalencia / Significado|Ejemplo coincidente|
-|:--|:--|:--|:--|
-|`[...]`|**Clase de caracteres**: coincide con un único carácter de los indicados.|`r"[aeiou]"`|Cualquier vocal minúscula|
-|`[^...]`|**Clase negada**: coincide con un único carácter que **NO** esté en la lista.|`r"[^0-9]"`|Cualquier carácter no numérico|
-|`[a-z]`|**Rango**: coincide con cualquier carácter entre los límites indicados.|`r"[A-Z]"`|Cualquier letra mayúscula|
-|`\d` / `\D`|**Dígito / No dígito**.|`` / `[^0-9]`|`"123"` / `"abc"`|
-|`\w` / `\W`|**Carácter de palabra / No palabra** (letras, dígitos y `_`).|`[a-zA-Z0-9_]` / `[^a-zA-Z0-9_]`|`"hello_1"` / `"!@#"`|
-|`\s` / `\S`|**Espacio en blanco / No espacio** (espacios, `\t`, `\n`, `\r`).|`[ \t\n\r\f\v]` / `[^ \t\n\r\f\v]`|Espacios y tabulaciones / texto|
+| Símbolo     | Descripción                                                                   | Equivalencia / Significado         | Ejemplo coincidente             |
+| :---------- | :---------------------------------------------------------------------------- | :--------------------------------- | :------------------------------ |
+| `[...]`     | **Clase de caracteres**: coincide con un único carácter de los indicados.     | `r"[aeiou]"`                       | Cualquier vocal minúscula       |
+| `[^...]`    | **Clase negada**: coincide con un único carácter que **NO** esté en la lista. | `r"[^0-9]"`                        | Cualquier carácter no numérico  |
+| `[a-z]`     | **Rango**: coincide con cualquier carácter entre los límites indicados.       | `r"[A-Z]"`                         | Cualquier letra mayúscula       |
+| `\d` / `\D` | **Dígito / No dígito**.                                                       | `` / `[^0-9]`                      | `"123"` / `"abc"`               |
+| `\w` / `\W` | **Carácter de palabra / No palabra** (letras, dígitos y `_`).                 | `[a-zA-Z0-9_]` / `[^a-zA-Z0-9_]`   | `"hello_1"` / `"!@#"`           |
+| `\s` / `\S` | **Espacio en blanco / No espacio** (espacios, `\t`, `\n`, `\r`).              | `[ \t\n\r\f\v]` / `[^ \t\n\r\f\v]` | Espacios y tabulaciones / texto |
 
 ---
 

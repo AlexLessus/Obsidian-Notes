@@ -1,5 +1,5 @@
-Tags: [[Aprendizaje Automático]] [[Python]] [[Vision Artificial]]
-
+Tags: [[Aprendizaje Automático]] [[Python]] [[Vision Artificial]] [[Importing Datasets With Pandas]]  [[Librerias ML]] [[Machine Learning]] [[Python]]
+ 
 **[Pandas](https://pandas.pydata.org/)** is one of the most powerful and popular Python libraries for working with data. If you've ever used Google Sheets or Excel to explore and analyze a table full of numbers, you're already halfway there – `pandas` just lets us do it faster, smarter, and with code.
 
 With Pandas, we can:

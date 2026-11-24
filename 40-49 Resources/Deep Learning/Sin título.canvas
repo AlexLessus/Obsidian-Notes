@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"c2f7239949e5f3e9","type":"text","text":"","x":-301,"y":-282,"width":250,"height":60},
+		{"id":"5ea288179fb0fc42","type":"file","file":"40-49 Resources/Pasted image 20261110081937.png","x":-301,"y":-73,"width":400,"height":221},
+		{"id":"1b1dac0e90bda446","type":"file","file":"40-49 Resources/Pasted image 20261110080937.png","x":-301,"y":-320,"width":400,"height":221},
+		{"id":"894b559712b1bfeb","type":"file","file":"40-49 Resources/Pasted image 20261110081124.png","x":120,"y":-320,"width":400,"height":221},
+		{"id":"edd11415c43e93c0","type":"file","file":"40-49 Resources/Pasted image 20261110081340.png","x":120,"y":-73,"width":400,"height":221},
+		{"id":"912909a310cd43c4","type":"file","file":"40-49 Resources/Pasted image 20261110081755.png","x":-301,"y":180,"width":400,"height":221},
+		{"id":"4350f53cc3ca2596","type":"file","file":"40-49 Resources/Pasted image 20261110081633.png","x":120,"y":180,"width":400,"height":221},
+		{"id":"52b603f51c1612e1","type":"file","file":"40-49 Resources/Pasted image 20261110080009.png","x":-720,"y":180,"width":400,"height":223},
+		{"id":"1d44a53af9f504dd","type":"text","text":"Delta = 0.5","x":-645,"y":-454,"width":250,"height":60},
+		{"id":"9de61524fb9efc48","type":"text","text":"Delta = 1.0","x":-226,"y":-444,"width":250,"height":50},
+		{"id":"4f287ff30a8e5411","type":"text","text":"Delta = 2.0","x":195,"y":-454,"width":250,"height":60},
+		{"id":"4c5133eb9b0858f1","type":"text","text":"Epocas = 50 / Adam","x":-1011,"y":-237,"width":250,"height":60},
+		{"id":"8fadaf50623c33b8","type":"text","text":"Epocas = 150 / Adam","x":-1011,"y":7,"width":250,"height":60},
+		{"id":"5d5033afc5dda0d3","type":"text","text":"Epocas = 300 / Adam","x":-1011,"y":261,"width":250,"height":60},
+		{"id":"33f92e18bc611f34","type":"file","file":"40-49 Resources/Pasted image 20261110080858.png","x":-720,"y":-320,"width":400,"height":221},
+		{"id":"be328c25c506563b","type":"file","file":"40-49 Resources/Pasted image 20261110081340.png","x":-720,"y":-73,"width":400,"height":221},
+		{"id":"0f4abdb7534b5bd5","type":"file","file":"40-49 Resources/Pasted image 20261110083953.png","x":-720,"y":438,"width":400,"height":221},
+		{"id":"b87aa81912fb078a","type":"file","file":"40-49 Resources/descarga (1).png","x":-301,"y":440,"width":400,"height":219},
+		{"id":"840a467ab3dc4606","type":"file","file":"40-49 Resources/Pasted image 20261110084040.png","x":120,"y":440,"width":400,"height":219},
+		{"id":"8c26ff609e151df1","type":"file","file":"40-49 Resources/Pasted image 20261110084259.png","x":-301,"y":700,"width":400,"height":219},
+		{"id":"db2051ca129be39e","type":"file","file":"40-49 Resources/Pasted image 20261110084638.png","x":120,"y":698,"width":400,"height":221},
+		{"id":"1f0bca30d00abd0e","type":"text","text":"Epocas = 50 / SGD","x":-1011,"y":520,"width":250,"height":60},
+		{"id":"a584be8d78cafde5","type":"text","text":"Epocas = 150 / SGD","x":-1011,"y":779,"width":250,"height":60},
+		{"id":"5b579da29f41a76a","type":"file","file":"40-49 Resources/Pasted image 20261110084836.png","x":-720,"y":700,"width":400,"height":219}
+	],
+	"edges":[]
+}

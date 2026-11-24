@@ -6,5 +6,6 @@
   "theme": "obsidian",
   "baseFontSize": 17,
   "monospaceFontFamily": "Cascadia Mono",
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "showRibbon": true
 }
